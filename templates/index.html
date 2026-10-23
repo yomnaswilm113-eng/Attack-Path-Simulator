@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathfinder | Attack Path Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#"><span class="brand-mark">P<span>+</span></span><span><b>PATHFINDER</b><small>ATTACK PATH SIMULATOR</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <a class="nav-item active" href="#overview"><span class="nav-icon">◫</span> Overview <span class="nav-dot"></span></a>
+    <a class="nav-item" href="#topology"><span class="nav-icon">⌘</span> Attack Graph</a>
+    <a class="nav-item" href="#assets"><span class="nav-icon">▦</span> Asset Inventory</a>
+    <a class="nav-item" href="#vulnerabilities"><span class="nav-icon">⌁</span> Vulnerabilities</a>
+    <a class="nav-item" href="#risk"><span class="nav-icon">◉</span> Risk Intelligence</a>
+    <div class="sidebar-bottom">
+      <div class="system-card"><span class="pulse"></span><div><b>SIMULATION ENGINE</b><small id="engine-status">Connecting to model…</small></div></div>
+      <div class="user-row"><div class="avatar">AP</div><div><b>Security Analyst</b><small>Local environment</small></div><span class="user-menu">•••</span></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="crumb">Workspace <span>/</span> <b>Overview</b></div>
+      <div class="top-actions"><span class="env-pill"><i></i> LOCAL SIMULATION</span><span class="top-divider"></span><span class="clock" id="clock">--:--:--</span><button class="icon-btn" id="refresh" title="Refresh network data">↻</button></div>
+    </header>
+
+    <section class="page" id="overview">
+      <div class="hero">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> SECURITY POSTURE / OVERVIEW</div>
+        <h1>Attack Surface <em>Intelligence</em></h1>
+        <p class="subtitle">Map your environment. Trace exposure. Understand the paths that matter.</p></div>
+        <div class="hero-right"><span class="live-dot"></span><span>MODEL STATUS</span><b id="model-state">INITIALIZING</b></div>
+      </div>
+
+      <div class="notice"><span class="notice-icon">i</span><span><b>Simulation environment</b> — metrics below are derived from the local network model. Vulnerability findings are not connected yet.</span><span class="notice-tag">DATA SCOPE: LOCAL</span></div>
+
+      <div class="metrics">
+        <article class="metric"><div class="metric-head"><span>DISCOVERED ASSETS</span><span class="metric-icon cyan">▦</span></div><div class="metric-value" id="asset-count">—</div><div class="metric-foot"><span class="metric-mark">↗</span> Nodes in network model</div><div class="metric-line"><span style="width:76%"></span></div></article>
+        <article class="metric"><div class="metric-head"><span>NETWORK CONNECTIONS</span><span class="metric-icon blue">⌘</span></div><div class="metric-value" id="connection-count">—</div><div class="metric-foot">Directed relationships</div><div class="metric-line blue-line"><span style="width:54%"></span></div></article>
+        <article class="metric"><div class="metric-head"><span>ISOLATED ASSETS</span><span class="metric-icon amber">◇</span></div><div class="metric-value" id="isolated-count">—</div><div class="metric-foot">No direct connections</div><div class="metric-line amber-line"><span style="width:25%"></span></div></article>
+        <article class="metric"><div class="metric-head"><span>VULNERABILITY FINDINGS</span><span class="metric-icon red">⌁</span></div><div class="metric-value muted-value">N/A</div><div class="metric-foot"><span class="neutral-dot"></span> Assessment integration pending</div><div class="metric-line red-line"><span style="width:10%"></span></div></article>
+      </div>
+
+      <div class="section-heading" id="topology"><div><div class="eyebrow">01 / ENVIRONMENT MAPPING</div><h2>Network Topology</h2><p>Explore assets and their directed connections.</p></div><div class="graph-actions"><div class="search-wrap"><span>⌕</span><input id="node-search" placeholder="Find an asset…" autocomplete="off"><button id="search-btn">GO</button></div><button class="secondary-btn" id="fit-btn">⤢ <span>Fit graph</span></button></div></div>
+
+      <div class="workspace-grid">
+        <section class="panel graph-panel">
+          <div class="panel-top"><div class="panel-title"><span class="status-ring"></span><div><b>ATTACK SURFACE MAP</b><small>INTERACTIVE NETWORK GRAPH</small></div></div><div class="graph-legend"><span><i class="legend-node"></i> Connected</span><span><i class="legend-node isolated-legend"></i> Isolated</span></div></div>
+          <div class="graph-stage" id="network"><div class="graph-loading"><div class="loader"></div><span>Loading network model…</span></div><div class="graph-watermark">PATHFINDER / GRAPH ENGINE</div></div>
+          <div class="graph-footer"><span><i class="footer-dot"></i> MODEL DATA LOADED FROM PYTHON</span><span id="graph-counts">— assets / — links</span></div>
+        </section>
+        <aside class="panel detail-panel">
+          <div class="panel-top"><div class="panel-title"><div><b>ASSET INSPECTOR</b><small>SELECT A NODE TO INVESTIGATE</small></div></div><span class="kebab">•••</span></div>
+          <div id="empty-inspector" class="inspector-empty"><div class="inspector-symbol">⌘</div><b>No asset selected</b><p>Select any node in the topology map to inspect its network properties.</p></div>
+          <div id="asset-inspector" hidden><div class="asset-type"><span class="asset-chip">NETWORK ASSET</span><span id="asset-state" class="state-chip">CONNECTED</span></div><h3 id="selected-name">—</h3><p class="asset-sub">Local simulation node</p><div class="detail-separator"></div><div class="detail-row"><span>Asset identifier</span><code id="selected-id">—</code></div><div class="detail-row"><span>Connection degree</span><b id="selected-degree">—</b></div><div class="detail-row"><span>Inbound links</span><b id="selected-in">—</b></div><div class="detail-row"><span>Outbound links</span><b id="selected-out">—</b></div><div class="detail-separator"></div><div class="insight-label">EXPOSURE CONTEXT</div><div id="selected-context" class="context-box">Select a node to view its context.</div></div>
+          <div class="inspector-bottom"><span class="neutral-dot"></span> <span>Vulnerability details unavailable until assessment data is integrated.</span></div>
+        </aside>
+      </div>
+
+      <div class="lower-grid">
+        <section class="panel" id="assets"><div class="panel-top"><div class="panel-title"><div><b>ASSET INVENTORY</b><small>DISCOVERED IN CURRENT MODEL</small></div></div><span class="table-count" id="inventory-count">0 ASSETS</span></div><div class="table-wrap"><table><thead><tr><th>ASSET</th><th>NETWORK ROLE</th><th>CONNECTIONS</th><th>STATUS</th></tr></thead><tbody id="asset-rows"><tr><td colspan="4" class="table-empty">Waiting for network data…</td></tr></tbody></table></div></section>
+        <section class="panel risk-panel" id="risk"><div class="panel-top"><div class="panel-title"><div><b>RISK INTELLIGENCE</b><small>ASSESSMENT STATUS</small></div></div><span class="table-count">IN PROGRESS</span></div><div class="risk-content"><div class="risk-gauge"><div class="gauge-inner"><span>RISK</span><b>—</b><small>NOT SCORED</small></div></div><div class="risk-copy"><b>Risk score not available</b><p>A defensible score requires vulnerability findings and a defined scoring method. No score is fabricated in this prototype.</p><div class="progress-track"><span></span></div><small>WAITING FOR ASSESSMENT INTEGRATION</small></div></div></section>
+      </div>
+
+      <section class="panel vuln-panel" id="vulnerabilities"><div class="panel-top"><div class="panel-title"><div><b>VULNERABILITY CENTER</b><small>FINDINGS & REMEDIATION WORKSPACE</small></div></div><span class="table-count">NOT CONNECTED</span></div><div class="vuln-empty"><div class="vuln-icon">⌁</div><div><b>No assessment findings loaded</b><p>This section will display verified findings, severity, CVE references and remediation once the vulnerability assessment module is connected. Unverified sample data will not be shown as confirmed findings.</p></div><span class="pending-tag">INTEGRATION PENDING</span></div></section>
+      <footer><span><b>PATHFINDER</b> <span class="footer-muted">ATTACK PATH SIMULATOR</span></span><span>LOCAL PROTOTYPE <i></i> DATA INTEGRATION IN PROGRESS</span></footer>
+    </section>
+  </main>
+</div>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
