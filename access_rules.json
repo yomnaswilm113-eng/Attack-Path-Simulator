@@ -1,0 +1,6002 @@
+[
+  {
+    "rule_id": "ACL-0001",
+    "source_asset_id": "AST-0495",
+    "target_asset_id": "AST-0289",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0002",
+    "source_asset_id": "AST-0500",
+    "target_asset_id": "AST-0400",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0003",
+    "source_asset_id": "AST-0846",
+    "target_asset_id": "AST-0515",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0004",
+    "source_asset_id": "AST-0857",
+    "target_asset_id": "AST-0537",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0005",
+    "source_asset_id": "AST-0832",
+    "target_asset_id": "AST-0398",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0006",
+    "source_asset_id": "AST-0198",
+    "target_asset_id": "AST-0013",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0007",
+    "source_asset_id": "AST-0482",
+    "target_asset_id": "AST-0212",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0008",
+    "source_asset_id": "AST-0401",
+    "target_asset_id": "AST-0636",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0009",
+    "source_asset_id": "AST-0002",
+    "target_asset_id": "AST-0819",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0010",
+    "source_asset_id": "AST-0876",
+    "target_asset_id": "AST-0763",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0011",
+    "source_asset_id": "AST-0224",
+    "target_asset_id": "AST-0771",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0012",
+    "source_asset_id": "AST-0312",
+    "target_asset_id": "AST-0886",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0013",
+    "source_asset_id": "AST-0700",
+    "target_asset_id": "AST-0743",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0014",
+    "source_asset_id": "AST-0119",
+    "target_asset_id": "AST-0571",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0015",
+    "source_asset_id": "AST-0004",
+    "target_asset_id": "AST-0704",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0016",
+    "source_asset_id": "AST-0683",
+    "target_asset_id": "AST-0423",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0017",
+    "source_asset_id": "AST-0343",
+    "target_asset_id": "AST-0205",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0018",
+    "source_asset_id": "AST-0672",
+    "target_asset_id": "AST-0953",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0019",
+    "source_asset_id": "AST-0497",
+    "target_asset_id": "AST-0815",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0020",
+    "source_asset_id": "AST-0395",
+    "target_asset_id": "AST-0403",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0021",
+    "source_asset_id": "AST-0180",
+    "target_asset_id": "AST-0520",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0022",
+    "source_asset_id": "AST-0425",
+    "target_asset_id": "AST-0975",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0023",
+    "source_asset_id": "AST-0011",
+    "target_asset_id": "AST-0198",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0024",
+    "source_asset_id": "AST-0051",
+    "target_asset_id": "AST-0735",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0025",
+    "source_asset_id": "AST-0853",
+    "target_asset_id": "AST-0231",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0026",
+    "source_asset_id": "AST-0649",
+    "target_asset_id": "AST-0706",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0027",
+    "source_asset_id": "AST-0160",
+    "target_asset_id": "AST-0728",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0028",
+    "source_asset_id": "AST-0866",
+    "target_asset_id": "AST-0706",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0029",
+    "source_asset_id": "AST-0463",
+    "target_asset_id": "AST-0851",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0030",
+    "source_asset_id": "AST-0833",
+    "target_asset_id": "AST-0826",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0031",
+    "source_asset_id": "AST-0514",
+    "target_asset_id": "AST-0466",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0032",
+    "source_asset_id": "AST-0718",
+    "target_asset_id": "AST-0879",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0033",
+    "source_asset_id": "AST-0870",
+    "target_asset_id": "AST-0875",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0034",
+    "source_asset_id": "AST-0365",
+    "target_asset_id": "AST-0164",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0035",
+    "source_asset_id": "AST-0929",
+    "target_asset_id": "AST-0731",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0036",
+    "source_asset_id": "AST-0602",
+    "target_asset_id": "AST-0479",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0037",
+    "source_asset_id": "AST-0589",
+    "target_asset_id": "AST-0092",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0038",
+    "source_asset_id": "AST-0878",
+    "target_asset_id": "AST-0361",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0039",
+    "source_asset_id": "AST-0521",
+    "target_asset_id": "AST-0924",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0040",
+    "source_asset_id": "AST-0860",
+    "target_asset_id": "AST-0582",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0041",
+    "source_asset_id": "AST-0683",
+    "target_asset_id": "AST-0835",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0042",
+    "source_asset_id": "AST-0877",
+    "target_asset_id": "AST-0270",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0043",
+    "source_asset_id": "AST-0470",
+    "target_asset_id": "AST-0492",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0044",
+    "source_asset_id": "AST-0941",
+    "target_asset_id": "AST-0556",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0045",
+    "source_asset_id": "AST-0796",
+    "target_asset_id": "AST-0755",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0046",
+    "source_asset_id": "AST-0609",
+    "target_asset_id": "AST-0355",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0047",
+    "source_asset_id": "AST-0193",
+    "target_asset_id": "AST-0146",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0048",
+    "source_asset_id": "AST-0775",
+    "target_asset_id": "AST-0193",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0049",
+    "source_asset_id": "AST-0799",
+    "target_asset_id": "AST-0292",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0050",
+    "source_asset_id": "AST-0426",
+    "target_asset_id": "AST-0393",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0051",
+    "source_asset_id": "AST-0420",
+    "target_asset_id": "AST-0036",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0052",
+    "source_asset_id": "AST-0140",
+    "target_asset_id": "AST-0001",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0053",
+    "source_asset_id": "AST-0564",
+    "target_asset_id": "AST-0963",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0054",
+    "source_asset_id": "AST-0777",
+    "target_asset_id": "AST-0935",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0055",
+    "source_asset_id": "AST-0226",
+    "target_asset_id": "AST-0454",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0056",
+    "source_asset_id": "AST-0229",
+    "target_asset_id": "AST-0303",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0057",
+    "source_asset_id": "AST-0371",
+    "target_asset_id": "AST-0431",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0058",
+    "source_asset_id": "AST-0594",
+    "target_asset_id": "AST-0645",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0059",
+    "source_asset_id": "AST-0503",
+    "target_asset_id": "AST-0825",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0060",
+    "source_asset_id": "AST-0490",
+    "target_asset_id": "AST-0035",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0061",
+    "source_asset_id": "AST-0207",
+    "target_asset_id": "AST-0616",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0062",
+    "source_asset_id": "AST-0744",
+    "target_asset_id": "AST-0612",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0063",
+    "source_asset_id": "AST-0436",
+    "target_asset_id": "AST-0916",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0064",
+    "source_asset_id": "AST-0774",
+    "target_asset_id": "AST-0363",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0065",
+    "source_asset_id": "AST-0871",
+    "target_asset_id": "AST-0165",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0066",
+    "source_asset_id": "AST-0991",
+    "target_asset_id": "AST-0604",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0067",
+    "source_asset_id": "AST-0324",
+    "target_asset_id": "AST-0279",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0068",
+    "source_asset_id": "AST-0578",
+    "target_asset_id": "AST-0336",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0069",
+    "source_asset_id": "AST-0799",
+    "target_asset_id": "AST-0301",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0070",
+    "source_asset_id": "AST-0807",
+    "target_asset_id": "AST-0479",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0071",
+    "source_asset_id": "AST-0939",
+    "target_asset_id": "AST-0594",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0072",
+    "source_asset_id": "AST-0532",
+    "target_asset_id": "AST-0519",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0073",
+    "source_asset_id": "AST-0940",
+    "target_asset_id": "AST-0777",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0074",
+    "source_asset_id": "AST-0290",
+    "target_asset_id": "AST-0250",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0075",
+    "source_asset_id": "AST-0652",
+    "target_asset_id": "AST-0993",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0076",
+    "source_asset_id": "AST-0216",
+    "target_asset_id": "AST-0110",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0077",
+    "source_asset_id": "AST-0070",
+    "target_asset_id": "AST-0537",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0078",
+    "source_asset_id": "AST-0983",
+    "target_asset_id": "AST-0014",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0079",
+    "source_asset_id": "AST-0653",
+    "target_asset_id": "AST-0260",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0080",
+    "source_asset_id": "AST-0089",
+    "target_asset_id": "AST-0990",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0081",
+    "source_asset_id": "AST-0308",
+    "target_asset_id": "AST-0881",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0082",
+    "source_asset_id": "AST-0678",
+    "target_asset_id": "AST-0592",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0083",
+    "source_asset_id": "AST-0579",
+    "target_asset_id": "AST-0460",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0084",
+    "source_asset_id": "AST-0253",
+    "target_asset_id": "AST-0572",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0085",
+    "source_asset_id": "AST-0399",
+    "target_asset_id": "AST-0874",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0086",
+    "source_asset_id": "AST-0862",
+    "target_asset_id": "AST-0746",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0087",
+    "source_asset_id": "AST-0018",
+    "target_asset_id": "AST-0664",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0088",
+    "source_asset_id": "AST-0224",
+    "target_asset_id": "AST-0547",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0089",
+    "source_asset_id": "AST-0022",
+    "target_asset_id": "AST-0541",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0090",
+    "source_asset_id": "AST-0245",
+    "target_asset_id": "AST-0165",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0091",
+    "source_asset_id": "AST-0185",
+    "target_asset_id": "AST-0395",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0092",
+    "source_asset_id": "AST-0484",
+    "target_asset_id": "AST-0126",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0093",
+    "source_asset_id": "AST-0334",
+    "target_asset_id": "AST-0121",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0094",
+    "source_asset_id": "AST-0833",
+    "target_asset_id": "AST-0482",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0095",
+    "source_asset_id": "AST-0850",
+    "target_asset_id": "AST-0460",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0096",
+    "source_asset_id": "AST-0608",
+    "target_asset_id": "AST-0140",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0097",
+    "source_asset_id": "AST-0944",
+    "target_asset_id": "AST-0160",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0098",
+    "source_asset_id": "AST-0035",
+    "target_asset_id": "AST-0367",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0099",
+    "source_asset_id": "AST-0428",
+    "target_asset_id": "AST-0014",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0100",
+    "source_asset_id": "AST-0494",
+    "target_asset_id": "AST-0114",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0101",
+    "source_asset_id": "AST-0388",
+    "target_asset_id": "AST-0332",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0102",
+    "source_asset_id": "AST-0946",
+    "target_asset_id": "AST-0415",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0103",
+    "source_asset_id": "AST-0971",
+    "target_asset_id": "AST-0265",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0104",
+    "source_asset_id": "AST-0235",
+    "target_asset_id": "AST-0464",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0105",
+    "source_asset_id": "AST-0737",
+    "target_asset_id": "AST-0308",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0106",
+    "source_asset_id": "AST-0143",
+    "target_asset_id": "AST-0738",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0107",
+    "source_asset_id": "AST-0836",
+    "target_asset_id": "AST-0534",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0108",
+    "source_asset_id": "AST-0323",
+    "target_asset_id": "AST-0754",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0109",
+    "source_asset_id": "AST-0557",
+    "target_asset_id": "AST-0886",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0110",
+    "source_asset_id": "AST-0439",
+    "target_asset_id": "AST-0294",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0111",
+    "source_asset_id": "AST-0062",
+    "target_asset_id": "AST-0677",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0112",
+    "source_asset_id": "AST-0558",
+    "target_asset_id": "AST-0208",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0113",
+    "source_asset_id": "AST-0445",
+    "target_asset_id": "AST-0332",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0114",
+    "source_asset_id": "AST-0522",
+    "target_asset_id": "AST-0976",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0115",
+    "source_asset_id": "AST-0765",
+    "target_asset_id": "AST-0764",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0116",
+    "source_asset_id": "AST-0875",
+    "target_asset_id": "AST-0212",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0117",
+    "source_asset_id": "AST-0995",
+    "target_asset_id": "AST-0907",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0118",
+    "source_asset_id": "AST-0463",
+    "target_asset_id": "AST-0055",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0119",
+    "source_asset_id": "AST-0740",
+    "target_asset_id": "AST-0482",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0120",
+    "source_asset_id": "AST-0557",
+    "target_asset_id": "AST-0008",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0121",
+    "source_asset_id": "AST-0476",
+    "target_asset_id": "AST-0091",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0122",
+    "source_asset_id": "AST-0733",
+    "target_asset_id": "AST-0952",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0123",
+    "source_asset_id": "AST-0493",
+    "target_asset_id": "AST-0428",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0124",
+    "source_asset_id": "AST-0215",
+    "target_asset_id": "AST-0701",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0125",
+    "source_asset_id": "AST-0574",
+    "target_asset_id": "AST-0776",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0126",
+    "source_asset_id": "AST-0540",
+    "target_asset_id": "AST-0099",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0127",
+    "source_asset_id": "AST-0742",
+    "target_asset_id": "AST-0586",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0128",
+    "source_asset_id": "AST-0143",
+    "target_asset_id": "AST-0523",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0129",
+    "source_asset_id": "AST-0247",
+    "target_asset_id": "AST-0702",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0130",
+    "source_asset_id": "AST-0370",
+    "target_asset_id": "AST-0282",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0131",
+    "source_asset_id": "AST-0864",
+    "target_asset_id": "AST-0553",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0132",
+    "source_asset_id": "AST-0268",
+    "target_asset_id": "AST-0785",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0133",
+    "source_asset_id": "AST-0412",
+    "target_asset_id": "AST-0231",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0134",
+    "source_asset_id": "AST-0155",
+    "target_asset_id": "AST-0442",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0135",
+    "source_asset_id": "AST-0892",
+    "target_asset_id": "AST-0628",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0136",
+    "source_asset_id": "AST-0833",
+    "target_asset_id": "AST-0774",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0137",
+    "source_asset_id": "AST-0437",
+    "target_asset_id": "AST-0849",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0138",
+    "source_asset_id": "AST-0200",
+    "target_asset_id": "AST-0152",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0139",
+    "source_asset_id": "AST-0871",
+    "target_asset_id": "AST-0553",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0140",
+    "source_asset_id": "AST-0300",
+    "target_asset_id": "AST-0984",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0141",
+    "source_asset_id": "AST-0052",
+    "target_asset_id": "AST-0702",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0142",
+    "source_asset_id": "AST-0175",
+    "target_asset_id": "AST-0872",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0143",
+    "source_asset_id": "AST-0534",
+    "target_asset_id": "AST-0613",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0144",
+    "source_asset_id": "AST-0403",
+    "target_asset_id": "AST-0215",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0145",
+    "source_asset_id": "AST-0017",
+    "target_asset_id": "AST-0873",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0146",
+    "source_asset_id": "AST-0481",
+    "target_asset_id": "AST-0162",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0147",
+    "source_asset_id": "AST-0968",
+    "target_asset_id": "AST-0213",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0148",
+    "source_asset_id": "AST-0846",
+    "target_asset_id": "AST-0830",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0149",
+    "source_asset_id": "AST-0585",
+    "target_asset_id": "AST-0083",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0150",
+    "source_asset_id": "AST-0874",
+    "target_asset_id": "AST-0668",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0151",
+    "source_asset_id": "AST-0966",
+    "target_asset_id": "AST-0098",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0152",
+    "source_asset_id": "AST-0422",
+    "target_asset_id": "AST-0241",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0153",
+    "source_asset_id": "AST-0537",
+    "target_asset_id": "AST-0281",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0154",
+    "source_asset_id": "AST-0298",
+    "target_asset_id": "AST-0769",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0155",
+    "source_asset_id": "AST-0631",
+    "target_asset_id": "AST-0936",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0156",
+    "source_asset_id": "AST-0361",
+    "target_asset_id": "AST-0078",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0157",
+    "source_asset_id": "AST-0320",
+    "target_asset_id": "AST-0540",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0158",
+    "source_asset_id": "AST-0749",
+    "target_asset_id": "AST-0793",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0159",
+    "source_asset_id": "AST-0188",
+    "target_asset_id": "AST-0888",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0160",
+    "source_asset_id": "AST-0606",
+    "target_asset_id": "AST-0019",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0161",
+    "source_asset_id": "AST-0676",
+    "target_asset_id": "AST-0344",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0162",
+    "source_asset_id": "AST-0913",
+    "target_asset_id": "AST-0841",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0163",
+    "source_asset_id": "AST-0988",
+    "target_asset_id": "AST-0025",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0164",
+    "source_asset_id": "AST-0558",
+    "target_asset_id": "AST-0295",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0165",
+    "source_asset_id": "AST-0931",
+    "target_asset_id": "AST-0078",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0166",
+    "source_asset_id": "AST-0934",
+    "target_asset_id": "AST-0700",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0167",
+    "source_asset_id": "AST-0586",
+    "target_asset_id": "AST-0200",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0168",
+    "source_asset_id": "AST-0472",
+    "target_asset_id": "AST-0079",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0169",
+    "source_asset_id": "AST-0775",
+    "target_asset_id": "AST-0176",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0170",
+    "source_asset_id": "AST-0678",
+    "target_asset_id": "AST-0675",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0171",
+    "source_asset_id": "AST-0445",
+    "target_asset_id": "AST-0456",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0172",
+    "source_asset_id": "AST-0953",
+    "target_asset_id": "AST-0228",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0173",
+    "source_asset_id": "AST-0261",
+    "target_asset_id": "AST-0467",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0174",
+    "source_asset_id": "AST-0175",
+    "target_asset_id": "AST-0577",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0175",
+    "source_asset_id": "AST-0006",
+    "target_asset_id": "AST-0841",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0176",
+    "source_asset_id": "AST-0806",
+    "target_asset_id": "AST-0670",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0177",
+    "source_asset_id": "AST-0114",
+    "target_asset_id": "AST-0866",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0178",
+    "source_asset_id": "AST-0996",
+    "target_asset_id": "AST-0835",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0179",
+    "source_asset_id": "AST-0343",
+    "target_asset_id": "AST-0989",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0180",
+    "source_asset_id": "AST-0755",
+    "target_asset_id": "AST-0234",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0181",
+    "source_asset_id": "AST-0909",
+    "target_asset_id": "AST-0616",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0182",
+    "source_asset_id": "AST-0838",
+    "target_asset_id": "AST-0988",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0183",
+    "source_asset_id": "AST-0499",
+    "target_asset_id": "AST-0257",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0184",
+    "source_asset_id": "AST-0236",
+    "target_asset_id": "AST-0518",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0185",
+    "source_asset_id": "AST-0494",
+    "target_asset_id": "AST-0658",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0186",
+    "source_asset_id": "AST-0611",
+    "target_asset_id": "AST-0599",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0187",
+    "source_asset_id": "AST-0020",
+    "target_asset_id": "AST-0196",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0188",
+    "source_asset_id": "AST-0841",
+    "target_asset_id": "AST-0099",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0189",
+    "source_asset_id": "AST-0850",
+    "target_asset_id": "AST-0132",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0190",
+    "source_asset_id": "AST-0341",
+    "target_asset_id": "AST-0998",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0191",
+    "source_asset_id": "AST-0343",
+    "target_asset_id": "AST-0599",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0192",
+    "source_asset_id": "AST-0129",
+    "target_asset_id": "AST-0934",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0193",
+    "source_asset_id": "AST-0108",
+    "target_asset_id": "AST-0061",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0194",
+    "source_asset_id": "AST-0264",
+    "target_asset_id": "AST-0482",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0195",
+    "source_asset_id": "AST-0483",
+    "target_asset_id": "AST-0128",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0196",
+    "source_asset_id": "AST-0206",
+    "target_asset_id": "AST-0728",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0197",
+    "source_asset_id": "AST-0696",
+    "target_asset_id": "AST-0912",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0198",
+    "source_asset_id": "AST-0691",
+    "target_asset_id": "AST-0956",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0199",
+    "source_asset_id": "AST-0800",
+    "target_asset_id": "AST-0285",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0200",
+    "source_asset_id": "AST-0454",
+    "target_asset_id": "AST-0139",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0201",
+    "source_asset_id": "AST-0786",
+    "target_asset_id": "AST-0300",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0202",
+    "source_asset_id": "AST-0007",
+    "target_asset_id": "AST-0572",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0203",
+    "source_asset_id": "AST-0447",
+    "target_asset_id": "AST-0530",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0204",
+    "source_asset_id": "AST-0861",
+    "target_asset_id": "AST-0879",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0205",
+    "source_asset_id": "AST-0314",
+    "target_asset_id": "AST-0222",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0206",
+    "source_asset_id": "AST-0019",
+    "target_asset_id": "AST-0141",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0207",
+    "source_asset_id": "AST-0998",
+    "target_asset_id": "AST-0452",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0208",
+    "source_asset_id": "AST-0575",
+    "target_asset_id": "AST-0297",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0209",
+    "source_asset_id": "AST-0202",
+    "target_asset_id": "AST-0410",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0210",
+    "source_asset_id": "AST-0323",
+    "target_asset_id": "AST-0154",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0211",
+    "source_asset_id": "AST-0347",
+    "target_asset_id": "AST-0250",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0212",
+    "source_asset_id": "AST-0625",
+    "target_asset_id": "AST-0850",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0213",
+    "source_asset_id": "AST-0215",
+    "target_asset_id": "AST-0980",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0214",
+    "source_asset_id": "AST-0759",
+    "target_asset_id": "AST-0715",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0215",
+    "source_asset_id": "AST-0186",
+    "target_asset_id": "AST-0615",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0216",
+    "source_asset_id": "AST-0096",
+    "target_asset_id": "AST-0087",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0217",
+    "source_asset_id": "AST-0467",
+    "target_asset_id": "AST-0337",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0218",
+    "source_asset_id": "AST-0689",
+    "target_asset_id": "AST-0891",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0219",
+    "source_asset_id": "AST-0780",
+    "target_asset_id": "AST-0603",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0220",
+    "source_asset_id": "AST-0547",
+    "target_asset_id": "AST-0070",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0221",
+    "source_asset_id": "AST-0589",
+    "target_asset_id": "AST-0491",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0222",
+    "source_asset_id": "AST-0799",
+    "target_asset_id": "AST-0952",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0223",
+    "source_asset_id": "AST-0022",
+    "target_asset_id": "AST-0352",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0224",
+    "source_asset_id": "AST-0926",
+    "target_asset_id": "AST-0870",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0225",
+    "source_asset_id": "AST-0830",
+    "target_asset_id": "AST-0113",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0226",
+    "source_asset_id": "AST-0655",
+    "target_asset_id": "AST-0285",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0227",
+    "source_asset_id": "AST-0825",
+    "target_asset_id": "AST-0107",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0228",
+    "source_asset_id": "AST-0694",
+    "target_asset_id": "AST-0737",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0229",
+    "source_asset_id": "AST-0328",
+    "target_asset_id": "AST-0519",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0230",
+    "source_asset_id": "AST-0254",
+    "target_asset_id": "AST-0316",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0231",
+    "source_asset_id": "AST-0551",
+    "target_asset_id": "AST-0880",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0232",
+    "source_asset_id": "AST-0956",
+    "target_asset_id": "AST-0935",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0233",
+    "source_asset_id": "AST-0829",
+    "target_asset_id": "AST-0489",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0234",
+    "source_asset_id": "AST-0993",
+    "target_asset_id": "AST-0148",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0235",
+    "source_asset_id": "AST-0639",
+    "target_asset_id": "AST-0657",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0236",
+    "source_asset_id": "AST-0592",
+    "target_asset_id": "AST-0979",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0237",
+    "source_asset_id": "AST-0654",
+    "target_asset_id": "AST-0543",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0238",
+    "source_asset_id": "AST-0798",
+    "target_asset_id": "AST-0343",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0239",
+    "source_asset_id": "AST-0064",
+    "target_asset_id": "AST-0724",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0240",
+    "source_asset_id": "AST-0209",
+    "target_asset_id": "AST-0127",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0241",
+    "source_asset_id": "AST-0023",
+    "target_asset_id": "AST-0505",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0242",
+    "source_asset_id": "AST-0561",
+    "target_asset_id": "AST-0728",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0243",
+    "source_asset_id": "AST-0005",
+    "target_asset_id": "AST-0061",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0244",
+    "source_asset_id": "AST-0421",
+    "target_asset_id": "AST-0047",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0245",
+    "source_asset_id": "AST-0745",
+    "target_asset_id": "AST-0433",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0246",
+    "source_asset_id": "AST-0498",
+    "target_asset_id": "AST-0163",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0247",
+    "source_asset_id": "AST-0751",
+    "target_asset_id": "AST-0576",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0248",
+    "source_asset_id": "AST-0465",
+    "target_asset_id": "AST-0947",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0249",
+    "source_asset_id": "AST-0603",
+    "target_asset_id": "AST-0729",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0250",
+    "source_asset_id": "AST-0118",
+    "target_asset_id": "AST-0817",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0251",
+    "source_asset_id": "AST-0418",
+    "target_asset_id": "AST-0647",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0252",
+    "source_asset_id": "AST-0521",
+    "target_asset_id": "AST-0923",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0253",
+    "source_asset_id": "AST-0932",
+    "target_asset_id": "AST-0069",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0254",
+    "source_asset_id": "AST-0998",
+    "target_asset_id": "AST-0602",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0255",
+    "source_asset_id": "AST-0710",
+    "target_asset_id": "AST-0826",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0256",
+    "source_asset_id": "AST-0332",
+    "target_asset_id": "AST-0200",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0257",
+    "source_asset_id": "AST-0297",
+    "target_asset_id": "AST-0951",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0258",
+    "source_asset_id": "AST-0063",
+    "target_asset_id": "AST-0987",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0259",
+    "source_asset_id": "AST-0048",
+    "target_asset_id": "AST-0301",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0260",
+    "source_asset_id": "AST-0699",
+    "target_asset_id": "AST-0407",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0261",
+    "source_asset_id": "AST-0492",
+    "target_asset_id": "AST-0796",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0262",
+    "source_asset_id": "AST-0903",
+    "target_asset_id": "AST-0459",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0263",
+    "source_asset_id": "AST-0219",
+    "target_asset_id": "AST-0760",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0264",
+    "source_asset_id": "AST-0183",
+    "target_asset_id": "AST-0714",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0265",
+    "source_asset_id": "AST-0216",
+    "target_asset_id": "AST-0525",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0266",
+    "source_asset_id": "AST-0408",
+    "target_asset_id": "AST-0139",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0267",
+    "source_asset_id": "AST-0756",
+    "target_asset_id": "AST-0357",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0268",
+    "source_asset_id": "AST-0656",
+    "target_asset_id": "AST-0238",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0269",
+    "source_asset_id": "AST-0280",
+    "target_asset_id": "AST-0908",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0270",
+    "source_asset_id": "AST-0056",
+    "target_asset_id": "AST-0846",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0271",
+    "source_asset_id": "AST-0162",
+    "target_asset_id": "AST-0670",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0272",
+    "source_asset_id": "AST-0636",
+    "target_asset_id": "AST-0022",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0273",
+    "source_asset_id": "AST-0728",
+    "target_asset_id": "AST-0815",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0274",
+    "source_asset_id": "AST-0933",
+    "target_asset_id": "AST-0067",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0275",
+    "source_asset_id": "AST-0892",
+    "target_asset_id": "AST-0483",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0276",
+    "source_asset_id": "AST-0812",
+    "target_asset_id": "AST-0790",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0277",
+    "source_asset_id": "AST-0450",
+    "target_asset_id": "AST-0446",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0278",
+    "source_asset_id": "AST-0333",
+    "target_asset_id": "AST-0240",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0279",
+    "source_asset_id": "AST-0709",
+    "target_asset_id": "AST-0884",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0280",
+    "source_asset_id": "AST-0343",
+    "target_asset_id": "AST-0230",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0281",
+    "source_asset_id": "AST-0478",
+    "target_asset_id": "AST-0564",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0282",
+    "source_asset_id": "AST-1000",
+    "target_asset_id": "AST-0991",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0283",
+    "source_asset_id": "AST-0192",
+    "target_asset_id": "AST-0119",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0284",
+    "source_asset_id": "AST-0776",
+    "target_asset_id": "AST-0958",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0285",
+    "source_asset_id": "AST-0853",
+    "target_asset_id": "AST-0382",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0286",
+    "source_asset_id": "AST-0123",
+    "target_asset_id": "AST-0031",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0287",
+    "source_asset_id": "AST-0510",
+    "target_asset_id": "AST-0009",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0288",
+    "source_asset_id": "AST-0576",
+    "target_asset_id": "AST-0409",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0289",
+    "source_asset_id": "AST-0130",
+    "target_asset_id": "AST-0791",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0290",
+    "source_asset_id": "AST-0956",
+    "target_asset_id": "AST-0957",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0291",
+    "source_asset_id": "AST-0155",
+    "target_asset_id": "AST-0896",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0292",
+    "source_asset_id": "AST-0026",
+    "target_asset_id": "AST-0036",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0293",
+    "source_asset_id": "AST-0682",
+    "target_asset_id": "AST-0355",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0294",
+    "source_asset_id": "AST-0820",
+    "target_asset_id": "AST-0780",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0295",
+    "source_asset_id": "AST-0887",
+    "target_asset_id": "AST-0600",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0296",
+    "source_asset_id": "AST-0343",
+    "target_asset_id": "AST-0224",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0297",
+    "source_asset_id": "AST-0274",
+    "target_asset_id": "AST-0784",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0298",
+    "source_asset_id": "AST-0640",
+    "target_asset_id": "AST-0505",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0299",
+    "source_asset_id": "AST-0203",
+    "target_asset_id": "AST-0961",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0300",
+    "source_asset_id": "AST-0284",
+    "target_asset_id": "AST-0700",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0301",
+    "source_asset_id": "AST-0962",
+    "target_asset_id": "AST-0717",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0302",
+    "source_asset_id": "AST-0832",
+    "target_asset_id": "AST-0145",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0303",
+    "source_asset_id": "AST-0041",
+    "target_asset_id": "AST-0760",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0304",
+    "source_asset_id": "AST-0541",
+    "target_asset_id": "AST-0708",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0305",
+    "source_asset_id": "AST-0631",
+    "target_asset_id": "AST-0572",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0306",
+    "source_asset_id": "AST-0459",
+    "target_asset_id": "AST-0787",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0307",
+    "source_asset_id": "AST-0916",
+    "target_asset_id": "AST-0412",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0308",
+    "source_asset_id": "AST-0746",
+    "target_asset_id": "AST-0015",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0309",
+    "source_asset_id": "AST-0874",
+    "target_asset_id": "AST-0671",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0310",
+    "source_asset_id": "AST-0017",
+    "target_asset_id": "AST-0198",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0311",
+    "source_asset_id": "AST-0035",
+    "target_asset_id": "AST-0567",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0312",
+    "source_asset_id": "AST-0386",
+    "target_asset_id": "AST-0972",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0313",
+    "source_asset_id": "AST-0605",
+    "target_asset_id": "AST-0039",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0314",
+    "source_asset_id": "AST-0100",
+    "target_asset_id": "AST-0421",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0315",
+    "source_asset_id": "AST-0023",
+    "target_asset_id": "AST-0912",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0316",
+    "source_asset_id": "AST-0935",
+    "target_asset_id": "AST-0979",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0317",
+    "source_asset_id": "AST-0795",
+    "target_asset_id": "AST-0265",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0318",
+    "source_asset_id": "AST-0723",
+    "target_asset_id": "AST-0702",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0319",
+    "source_asset_id": "AST-0796",
+    "target_asset_id": "AST-0163",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0320",
+    "source_asset_id": "AST-0522",
+    "target_asset_id": "AST-0844",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0321",
+    "source_asset_id": "AST-0077",
+    "target_asset_id": "AST-0868",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0322",
+    "source_asset_id": "AST-0153",
+    "target_asset_id": "AST-0001",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0323",
+    "source_asset_id": "AST-0763",
+    "target_asset_id": "AST-0444",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0324",
+    "source_asset_id": "AST-0733",
+    "target_asset_id": "AST-0924",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0325",
+    "source_asset_id": "AST-0503",
+    "target_asset_id": "AST-0872",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0326",
+    "source_asset_id": "AST-0589",
+    "target_asset_id": "AST-0639",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0327",
+    "source_asset_id": "AST-0950",
+    "target_asset_id": "AST-0514",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0328",
+    "source_asset_id": "AST-0278",
+    "target_asset_id": "AST-0361",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0329",
+    "source_asset_id": "AST-0897",
+    "target_asset_id": "AST-0742",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0330",
+    "source_asset_id": "AST-0868",
+    "target_asset_id": "AST-0232",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0331",
+    "source_asset_id": "AST-0915",
+    "target_asset_id": "AST-0745",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0332",
+    "source_asset_id": "AST-0939",
+    "target_asset_id": "AST-0191",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0333",
+    "source_asset_id": "AST-0373",
+    "target_asset_id": "AST-0835",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0334",
+    "source_asset_id": "AST-0558",
+    "target_asset_id": "AST-0407",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0335",
+    "source_asset_id": "AST-0876",
+    "target_asset_id": "AST-0517",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0336",
+    "source_asset_id": "AST-0906",
+    "target_asset_id": "AST-0988",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0337",
+    "source_asset_id": "AST-0278",
+    "target_asset_id": "AST-0649",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0338",
+    "source_asset_id": "AST-0544",
+    "target_asset_id": "AST-0362",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0339",
+    "source_asset_id": "AST-0444",
+    "target_asset_id": "AST-0627",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0340",
+    "source_asset_id": "AST-0201",
+    "target_asset_id": "AST-0183",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0341",
+    "source_asset_id": "AST-0975",
+    "target_asset_id": "AST-0470",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0342",
+    "source_asset_id": "AST-0246",
+    "target_asset_id": "AST-0425",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0343",
+    "source_asset_id": "AST-0349",
+    "target_asset_id": "AST-0237",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0344",
+    "source_asset_id": "AST-0758",
+    "target_asset_id": "AST-0622",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0345",
+    "source_asset_id": "AST-0841",
+    "target_asset_id": "AST-0767",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0346",
+    "source_asset_id": "AST-0019",
+    "target_asset_id": "AST-0091",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0347",
+    "source_asset_id": "AST-0431",
+    "target_asset_id": "AST-0134",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0348",
+    "source_asset_id": "AST-0767",
+    "target_asset_id": "AST-0396",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0349",
+    "source_asset_id": "AST-0796",
+    "target_asset_id": "AST-0374",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0350",
+    "source_asset_id": "AST-0714",
+    "target_asset_id": "AST-0253",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0351",
+    "source_asset_id": "AST-0973",
+    "target_asset_id": "AST-0245",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0352",
+    "source_asset_id": "AST-0990",
+    "target_asset_id": "AST-0480",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0353",
+    "source_asset_id": "AST-0983",
+    "target_asset_id": "AST-0763",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0354",
+    "source_asset_id": "AST-0770",
+    "target_asset_id": "AST-0053",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0355",
+    "source_asset_id": "AST-0002",
+    "target_asset_id": "AST-0565",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0356",
+    "source_asset_id": "AST-0760",
+    "target_asset_id": "AST-0480",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0357",
+    "source_asset_id": "AST-0658",
+    "target_asset_id": "AST-0560",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0358",
+    "source_asset_id": "AST-0772",
+    "target_asset_id": "AST-0355",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0359",
+    "source_asset_id": "AST-0137",
+    "target_asset_id": "AST-0333",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0360",
+    "source_asset_id": "AST-0133",
+    "target_asset_id": "AST-0138",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0361",
+    "source_asset_id": "AST-0489",
+    "target_asset_id": "AST-0462",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0362",
+    "source_asset_id": "AST-0371",
+    "target_asset_id": "AST-0457",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0363",
+    "source_asset_id": "AST-0675",
+    "target_asset_id": "AST-0824",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0364",
+    "source_asset_id": "AST-0959",
+    "target_asset_id": "AST-0948",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0365",
+    "source_asset_id": "AST-0036",
+    "target_asset_id": "AST-0233",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0366",
+    "source_asset_id": "AST-0847",
+    "target_asset_id": "AST-0406",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0367",
+    "source_asset_id": "AST-0831",
+    "target_asset_id": "AST-0803",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0368",
+    "source_asset_id": "AST-0340",
+    "target_asset_id": "AST-0922",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0369",
+    "source_asset_id": "AST-0771",
+    "target_asset_id": "AST-0487",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0370",
+    "source_asset_id": "AST-0182",
+    "target_asset_id": "AST-0539",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0371",
+    "source_asset_id": "AST-0154",
+    "target_asset_id": "AST-0997",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0372",
+    "source_asset_id": "AST-0873",
+    "target_asset_id": "AST-0430",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0373",
+    "source_asset_id": "AST-0765",
+    "target_asset_id": "AST-0456",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0374",
+    "source_asset_id": "AST-0780",
+    "target_asset_id": "AST-0584",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0375",
+    "source_asset_id": "AST-0895",
+    "target_asset_id": "AST-0231",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0376",
+    "source_asset_id": "AST-0805",
+    "target_asset_id": "AST-0600",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0377",
+    "source_asset_id": "AST-0730",
+    "target_asset_id": "AST-0574",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0378",
+    "source_asset_id": "AST-0236",
+    "target_asset_id": "AST-0976",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0379",
+    "source_asset_id": "AST-0634",
+    "target_asset_id": "AST-0288",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0380",
+    "source_asset_id": "AST-0585",
+    "target_asset_id": "AST-0433",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0381",
+    "source_asset_id": "AST-0938",
+    "target_asset_id": "AST-0801",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0382",
+    "source_asset_id": "AST-0967",
+    "target_asset_id": "AST-0638",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0383",
+    "source_asset_id": "AST-0088",
+    "target_asset_id": "AST-0725",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0384",
+    "source_asset_id": "AST-0021",
+    "target_asset_id": "AST-0046",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0385",
+    "source_asset_id": "AST-0761",
+    "target_asset_id": "AST-0262",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0386",
+    "source_asset_id": "AST-0611",
+    "target_asset_id": "AST-0060",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0387",
+    "source_asset_id": "AST-0330",
+    "target_asset_id": "AST-0501",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0388",
+    "source_asset_id": "AST-0260",
+    "target_asset_id": "AST-0888",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0389",
+    "source_asset_id": "AST-0101",
+    "target_asset_id": "AST-0648",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0390",
+    "source_asset_id": "AST-0731",
+    "target_asset_id": "AST-0272",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0391",
+    "source_asset_id": "AST-0280",
+    "target_asset_id": "AST-0161",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0392",
+    "source_asset_id": "AST-0982",
+    "target_asset_id": "AST-0404",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0393",
+    "source_asset_id": "AST-0305",
+    "target_asset_id": "AST-0836",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0394",
+    "source_asset_id": "AST-0468",
+    "target_asset_id": "AST-0128",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0395",
+    "source_asset_id": "AST-0185",
+    "target_asset_id": "AST-0669",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0396",
+    "source_asset_id": "AST-0336",
+    "target_asset_id": "AST-0238",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0397",
+    "source_asset_id": "AST-0697",
+    "target_asset_id": "AST-0496",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0398",
+    "source_asset_id": "AST-0925",
+    "target_asset_id": "AST-0740",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0399",
+    "source_asset_id": "AST-0875",
+    "target_asset_id": "AST-0494",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0400",
+    "source_asset_id": "AST-0010",
+    "target_asset_id": "AST-0307",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0401",
+    "source_asset_id": "AST-0002",
+    "target_asset_id": "AST-0482",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0402",
+    "source_asset_id": "AST-0031",
+    "target_asset_id": "AST-0979",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0403",
+    "source_asset_id": "AST-0863",
+    "target_asset_id": "AST-0271",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0404",
+    "source_asset_id": "AST-0782",
+    "target_asset_id": "AST-0510",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0405",
+    "source_asset_id": "AST-0471",
+    "target_asset_id": "AST-0123",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0406",
+    "source_asset_id": "AST-0400",
+    "target_asset_id": "AST-0434",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0407",
+    "source_asset_id": "AST-0158",
+    "target_asset_id": "AST-0357",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0408",
+    "source_asset_id": "AST-0905",
+    "target_asset_id": "AST-0372",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0409",
+    "source_asset_id": "AST-0502",
+    "target_asset_id": "AST-0212",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0410",
+    "source_asset_id": "AST-0993",
+    "target_asset_id": "AST-0574",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0411",
+    "source_asset_id": "AST-0181",
+    "target_asset_id": "AST-0536",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0412",
+    "source_asset_id": "AST-0862",
+    "target_asset_id": "AST-0396",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0413",
+    "source_asset_id": "AST-0188",
+    "target_asset_id": "AST-0697",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0414",
+    "source_asset_id": "AST-0715",
+    "target_asset_id": "AST-0655",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0415",
+    "source_asset_id": "AST-0110",
+    "target_asset_id": "AST-0790",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0416",
+    "source_asset_id": "AST-0404",
+    "target_asset_id": "AST-0715",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0417",
+    "source_asset_id": "AST-0889",
+    "target_asset_id": "AST-0781",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0418",
+    "source_asset_id": "AST-0645",
+    "target_asset_id": "AST-0620",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0419",
+    "source_asset_id": "AST-0017",
+    "target_asset_id": "AST-0064",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0420",
+    "source_asset_id": "AST-0729",
+    "target_asset_id": "AST-0948",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0421",
+    "source_asset_id": "AST-0399",
+    "target_asset_id": "AST-0266",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0422",
+    "source_asset_id": "AST-0893",
+    "target_asset_id": "AST-0308",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0423",
+    "source_asset_id": "AST-0784",
+    "target_asset_id": "AST-0885",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0424",
+    "source_asset_id": "AST-0619",
+    "target_asset_id": "AST-0426",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0425",
+    "source_asset_id": "AST-0784",
+    "target_asset_id": "AST-0822",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0426",
+    "source_asset_id": "AST-0472",
+    "target_asset_id": "AST-0481",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0427",
+    "source_asset_id": "AST-0530",
+    "target_asset_id": "AST-0607",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0428",
+    "source_asset_id": "AST-0711",
+    "target_asset_id": "AST-0602",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0429",
+    "source_asset_id": "AST-0300",
+    "target_asset_id": "AST-0721",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0430",
+    "source_asset_id": "AST-0673",
+    "target_asset_id": "AST-0131",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0431",
+    "source_asset_id": "AST-0132",
+    "target_asset_id": "AST-0401",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0432",
+    "source_asset_id": "AST-0021",
+    "target_asset_id": "AST-0161",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0433",
+    "source_asset_id": "AST-0865",
+    "target_asset_id": "AST-0549",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0434",
+    "source_asset_id": "AST-0494",
+    "target_asset_id": "AST-0086",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0435",
+    "source_asset_id": "AST-0273",
+    "target_asset_id": "AST-0177",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0436",
+    "source_asset_id": "AST-0771",
+    "target_asset_id": "AST-0088",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0437",
+    "source_asset_id": "AST-0572",
+    "target_asset_id": "AST-0615",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0438",
+    "source_asset_id": "AST-0371",
+    "target_asset_id": "AST-0905",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0439",
+    "source_asset_id": "AST-0503",
+    "target_asset_id": "AST-0685",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0440",
+    "source_asset_id": "AST-0803",
+    "target_asset_id": "AST-0683",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0441",
+    "source_asset_id": "AST-0951",
+    "target_asset_id": "AST-0229",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0442",
+    "source_asset_id": "AST-0875",
+    "target_asset_id": "AST-0450",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0443",
+    "source_asset_id": "AST-0360",
+    "target_asset_id": "AST-0823",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0444",
+    "source_asset_id": "AST-0421",
+    "target_asset_id": "AST-0539",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0445",
+    "source_asset_id": "AST-0423",
+    "target_asset_id": "AST-0284",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0446",
+    "source_asset_id": "AST-0701",
+    "target_asset_id": "AST-0155",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0447",
+    "source_asset_id": "AST-0564",
+    "target_asset_id": "AST-0972",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0448",
+    "source_asset_id": "AST-0560",
+    "target_asset_id": "AST-0051",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0449",
+    "source_asset_id": "AST-0839",
+    "target_asset_id": "AST-0959",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0450",
+    "source_asset_id": "AST-0114",
+    "target_asset_id": "AST-0667",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0451",
+    "source_asset_id": "AST-0002",
+    "target_asset_id": "AST-0576",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0452",
+    "source_asset_id": "AST-0260",
+    "target_asset_id": "AST-0512",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0453",
+    "source_asset_id": "AST-0545",
+    "target_asset_id": "AST-0831",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0454",
+    "source_asset_id": "AST-0805",
+    "target_asset_id": "AST-0650",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0455",
+    "source_asset_id": "AST-0959",
+    "target_asset_id": "AST-0225",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0456",
+    "source_asset_id": "AST-0284",
+    "target_asset_id": "AST-0762",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0457",
+    "source_asset_id": "AST-0592",
+    "target_asset_id": "AST-0916",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0458",
+    "source_asset_id": "AST-0515",
+    "target_asset_id": "AST-0118",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0459",
+    "source_asset_id": "AST-0224",
+    "target_asset_id": "AST-0497",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0460",
+    "source_asset_id": "AST-0296",
+    "target_asset_id": "AST-0321",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0461",
+    "source_asset_id": "AST-0615",
+    "target_asset_id": "AST-0297",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0462",
+    "source_asset_id": "AST-0485",
+    "target_asset_id": "AST-0134",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0463",
+    "source_asset_id": "AST-0438",
+    "target_asset_id": "AST-0168",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0464",
+    "source_asset_id": "AST-0499",
+    "target_asset_id": "AST-0462",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0465",
+    "source_asset_id": "AST-0586",
+    "target_asset_id": "AST-0546",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0466",
+    "source_asset_id": "AST-0571",
+    "target_asset_id": "AST-0096",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0467",
+    "source_asset_id": "AST-0399",
+    "target_asset_id": "AST-0447",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0468",
+    "source_asset_id": "AST-0540",
+    "target_asset_id": "AST-0359",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0469",
+    "source_asset_id": "AST-0464",
+    "target_asset_id": "AST-0120",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0470",
+    "source_asset_id": "AST-0271",
+    "target_asset_id": "AST-0982",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0471",
+    "source_asset_id": "AST-0865",
+    "target_asset_id": "AST-0579",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0472",
+    "source_asset_id": "AST-0257",
+    "target_asset_id": "AST-0489",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0473",
+    "source_asset_id": "AST-0450",
+    "target_asset_id": "AST-0656",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0474",
+    "source_asset_id": "AST-0520",
+    "target_asset_id": "AST-0281",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0475",
+    "source_asset_id": "AST-0925",
+    "target_asset_id": "AST-0835",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0476",
+    "source_asset_id": "AST-0775",
+    "target_asset_id": "AST-0577",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0477",
+    "source_asset_id": "AST-0607",
+    "target_asset_id": "AST-0892",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0478",
+    "source_asset_id": "AST-0042",
+    "target_asset_id": "AST-0655",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0479",
+    "source_asset_id": "AST-0013",
+    "target_asset_id": "AST-0328",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0480",
+    "source_asset_id": "AST-0236",
+    "target_asset_id": "AST-0389",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0481",
+    "source_asset_id": "AST-0034",
+    "target_asset_id": "AST-0331",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0482",
+    "source_asset_id": "AST-0311",
+    "target_asset_id": "AST-0948",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0483",
+    "source_asset_id": "AST-0881",
+    "target_asset_id": "AST-0674",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0484",
+    "source_asset_id": "AST-0625",
+    "target_asset_id": "AST-0240",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0485",
+    "source_asset_id": "AST-0243",
+    "target_asset_id": "AST-0208",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0486",
+    "source_asset_id": "AST-0968",
+    "target_asset_id": "AST-0484",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0487",
+    "source_asset_id": "AST-0406",
+    "target_asset_id": "AST-0831",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0488",
+    "source_asset_id": "AST-0609",
+    "target_asset_id": "AST-0414",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0489",
+    "source_asset_id": "AST-0501",
+    "target_asset_id": "AST-0783",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0490",
+    "source_asset_id": "AST-0668",
+    "target_asset_id": "AST-0881",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0491",
+    "source_asset_id": "AST-0477",
+    "target_asset_id": "AST-0873",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0492",
+    "source_asset_id": "AST-0955",
+    "target_asset_id": "AST-0481",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0493",
+    "source_asset_id": "AST-0866",
+    "target_asset_id": "AST-0395",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0494",
+    "source_asset_id": "AST-0511",
+    "target_asset_id": "AST-0516",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0495",
+    "source_asset_id": "AST-0703",
+    "target_asset_id": "AST-0659",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0496",
+    "source_asset_id": "AST-0455",
+    "target_asset_id": "AST-0722",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0497",
+    "source_asset_id": "AST-0968",
+    "target_asset_id": "AST-0625",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0498",
+    "source_asset_id": "AST-0952",
+    "target_asset_id": "AST-0453",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0499",
+    "source_asset_id": "AST-0415",
+    "target_asset_id": "AST-0365",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0500",
+    "source_asset_id": "AST-0297",
+    "target_asset_id": "AST-0396",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0501",
+    "source_asset_id": "AST-0312",
+    "target_asset_id": "AST-0687",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0502",
+    "source_asset_id": "AST-0512",
+    "target_asset_id": "AST-0124",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0503",
+    "source_asset_id": "AST-0209",
+    "target_asset_id": "AST-0599",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0504",
+    "source_asset_id": "AST-0567",
+    "target_asset_id": "AST-0093",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0505",
+    "source_asset_id": "AST-0688",
+    "target_asset_id": "AST-0513",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0506",
+    "source_asset_id": "AST-0729",
+    "target_asset_id": "AST-0323",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0507",
+    "source_asset_id": "AST-0201",
+    "target_asset_id": "AST-0760",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0508",
+    "source_asset_id": "AST-0448",
+    "target_asset_id": "AST-0535",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0509",
+    "source_asset_id": "AST-0788",
+    "target_asset_id": "AST-0465",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0510",
+    "source_asset_id": "AST-0873",
+    "target_asset_id": "AST-0047",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0511",
+    "source_asset_id": "AST-0187",
+    "target_asset_id": "AST-0067",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0512",
+    "source_asset_id": "AST-0398",
+    "target_asset_id": "AST-0561",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0513",
+    "source_asset_id": "AST-0848",
+    "target_asset_id": "AST-0954",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0514",
+    "source_asset_id": "AST-0461",
+    "target_asset_id": "AST-0583",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0515",
+    "source_asset_id": "AST-0175",
+    "target_asset_id": "AST-0318",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0516",
+    "source_asset_id": "AST-0491",
+    "target_asset_id": "AST-0248",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0517",
+    "source_asset_id": "AST-0037",
+    "target_asset_id": "AST-0849",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0518",
+    "source_asset_id": "AST-0418",
+    "target_asset_id": "AST-0573",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0519",
+    "source_asset_id": "AST-0798",
+    "target_asset_id": "AST-0956",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0520",
+    "source_asset_id": "AST-0204",
+    "target_asset_id": "AST-0549",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0521",
+    "source_asset_id": "AST-0048",
+    "target_asset_id": "AST-0957",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0522",
+    "source_asset_id": "AST-0957",
+    "target_asset_id": "AST-0359",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0523",
+    "source_asset_id": "AST-0298",
+    "target_asset_id": "AST-0103",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0524",
+    "source_asset_id": "AST-0922",
+    "target_asset_id": "AST-0675",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0525",
+    "source_asset_id": "AST-0041",
+    "target_asset_id": "AST-0184",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0526",
+    "source_asset_id": "AST-0644",
+    "target_asset_id": "AST-0554",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0527",
+    "source_asset_id": "AST-0217",
+    "target_asset_id": "AST-0351",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0528",
+    "source_asset_id": "AST-0804",
+    "target_asset_id": "AST-0484",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0529",
+    "source_asset_id": "AST-0296",
+    "target_asset_id": "AST-0964",
+    "principal_type": "user",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0530",
+    "source_asset_id": "AST-0379",
+    "target_asset_id": "AST-0061",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0531",
+    "source_asset_id": "AST-0251",
+    "target_asset_id": "AST-0120",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0532",
+    "source_asset_id": "AST-0688",
+    "target_asset_id": "AST-0122",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0533",
+    "source_asset_id": "AST-0352",
+    "target_asset_id": "AST-0651",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0534",
+    "source_asset_id": "AST-0092",
+    "target_asset_id": "AST-0237",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0535",
+    "source_asset_id": "AST-0680",
+    "target_asset_id": "AST-0671",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0536",
+    "source_asset_id": "AST-0893",
+    "target_asset_id": "AST-0850",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0537",
+    "source_asset_id": "AST-0972",
+    "target_asset_id": "AST-0657",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0538",
+    "source_asset_id": "AST-0416",
+    "target_asset_id": "AST-0896",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0539",
+    "source_asset_id": "AST-0622",
+    "target_asset_id": "AST-0809",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0540",
+    "source_asset_id": "AST-0448",
+    "target_asset_id": "AST-0665",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0541",
+    "source_asset_id": "AST-0808",
+    "target_asset_id": "AST-0672",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0542",
+    "source_asset_id": "AST-0300",
+    "target_asset_id": "AST-0499",
+    "principal_type": "service_account",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0543",
+    "source_asset_id": "AST-0334",
+    "target_asset_id": "AST-0790",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0544",
+    "source_asset_id": "AST-0748",
+    "target_asset_id": "AST-0227",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0545",
+    "source_asset_id": "AST-0893",
+    "target_asset_id": "AST-0659",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0546",
+    "source_asset_id": "AST-0646",
+    "target_asset_id": "AST-0850",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0547",
+    "source_asset_id": "AST-0037",
+    "target_asset_id": "AST-0789",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0548",
+    "source_asset_id": "AST-0366",
+    "target_asset_id": "AST-0217",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0549",
+    "source_asset_id": "AST-0648",
+    "target_asset_id": "AST-0170",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0550",
+    "source_asset_id": "AST-0704",
+    "target_asset_id": "AST-0590",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0551",
+    "source_asset_id": "AST-0579",
+    "target_asset_id": "AST-0594",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0552",
+    "source_asset_id": "AST-0845",
+    "target_asset_id": "AST-0015",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0553",
+    "source_asset_id": "AST-0933",
+    "target_asset_id": "AST-0575",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0554",
+    "source_asset_id": "AST-0879",
+    "target_asset_id": "AST-0642",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0555",
+    "source_asset_id": "AST-0563",
+    "target_asset_id": "AST-0099",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0556",
+    "source_asset_id": "AST-0259",
+    "target_asset_id": "AST-0334",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0557",
+    "source_asset_id": "AST-0379",
+    "target_asset_id": "AST-0450",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0558",
+    "source_asset_id": "AST-0225",
+    "target_asset_id": "AST-0432",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0559",
+    "source_asset_id": "AST-0608",
+    "target_asset_id": "AST-0513",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0560",
+    "source_asset_id": "AST-0806",
+    "target_asset_id": "AST-0775",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0561",
+    "source_asset_id": "AST-0287",
+    "target_asset_id": "AST-0373",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0562",
+    "source_asset_id": "AST-0664",
+    "target_asset_id": "AST-0518",
+    "principal_type": "system",
+    "permission": "read",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0563",
+    "source_asset_id": "AST-0668",
+    "target_asset_id": "AST-0226",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0564",
+    "source_asset_id": "AST-0956",
+    "target_asset_id": "AST-0435",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0565",
+    "source_asset_id": "AST-0961",
+    "target_asset_id": "AST-0967",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0566",
+    "source_asset_id": "AST-0090",
+    "target_asset_id": "AST-0919",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0567",
+    "source_asset_id": "AST-0269",
+    "target_asset_id": "AST-0785",
+    "principal_type": "user",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0568",
+    "source_asset_id": "AST-0268",
+    "target_asset_id": "AST-0291",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0569",
+    "source_asset_id": "AST-0925",
+    "target_asset_id": "AST-0811",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0570",
+    "source_asset_id": "AST-0264",
+    "target_asset_id": "AST-0089",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0571",
+    "source_asset_id": "AST-0046",
+    "target_asset_id": "AST-0261",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0572",
+    "source_asset_id": "AST-0618",
+    "target_asset_id": "AST-0194",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0573",
+    "source_asset_id": "AST-0402",
+    "target_asset_id": "AST-0954",
+    "principal_type": "administrator",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0574",
+    "source_asset_id": "AST-0921",
+    "target_asset_id": "AST-0178",
+    "principal_type": "system",
+    "permission": "connect",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0575",
+    "source_asset_id": "AST-0722",
+    "target_asset_id": "AST-0821",
+    "principal_type": "system",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0576",
+    "source_asset_id": "AST-0448",
+    "target_asset_id": "AST-0268",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0577",
+    "source_asset_id": "AST-0711",
+    "target_asset_id": "AST-0127",
+    "principal_type": "service_account",
+    "permission": "execute",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0578",
+    "source_asset_id": "AST-0159",
+    "target_asset_id": "AST-0334",
+    "principal_type": "administrator",
+    "permission": "execute",
+    "decision": "deny",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0579",
+    "source_asset_id": "AST-0571",
+    "target_asset_id": "AST-0203",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "always",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0580",
+    "source_asset_id": "AST-0213",
+    "target_asset_id": "AST-0547",
+    "principal_type": "administrator",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0581",
+    "source_asset_id": "AST-0075",
+    "target_asset_id": "AST-0863",
+    "principal_type": "user",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0582",
+    "source_asset_id": "AST-0953",
+    "target_asset_id": "AST-0136",
+    "principal_type": "administrator",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0583",
+    "source_asset_id": "AST-0007",
+    "target_asset_id": "AST-0377",
+    "principal_type": "system",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0584",
+    "source_asset_id": "AST-0927",
+    "target_asset_id": "AST-0281",
+    "principal_type": "service_account",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0585",
+    "source_asset_id": "AST-0161",
+    "target_asset_id": "AST-0483",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0586",
+    "source_asset_id": "AST-0211",
+    "target_asset_id": "AST-0315",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0587",
+    "source_asset_id": "AST-0217",
+    "target_asset_id": "AST-0501",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0588",
+    "source_asset_id": "AST-0417",
+    "target_asset_id": "AST-0482",
+    "principal_type": "service_account",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0589",
+    "source_asset_id": "AST-0159",
+    "target_asset_id": "AST-0900",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0590",
+    "source_asset_id": "AST-0938",
+    "target_asset_id": "AST-0739",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0591",
+    "source_asset_id": "AST-0904",
+    "target_asset_id": "AST-0630",
+    "principal_type": "administrator",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "ticket_approved",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0592",
+    "source_asset_id": "AST-0650",
+    "target_asset_id": "AST-0865",
+    "principal_type": "administrator",
+    "permission": "administer",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0593",
+    "source_asset_id": "AST-0771",
+    "target_asset_id": "AST-0302",
+    "principal_type": "service_account",
+    "permission": "authenticate",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0594",
+    "source_asset_id": "AST-0622",
+    "target_asset_id": "AST-0626",
+    "principal_type": "service_account",
+    "permission": "read",
+    "decision": "allow",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0595",
+    "source_asset_id": "AST-0501",
+    "target_asset_id": "AST-0355",
+    "principal_type": "system",
+    "permission": "write",
+    "decision": "deny",
+    "condition": "approved_network",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0596",
+    "source_asset_id": "AST-0517",
+    "target_asset_id": "AST-0267",
+    "principal_type": "user",
+    "permission": "connect",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0597",
+    "source_asset_id": "AST-0415",
+    "target_asset_id": "AST-0665",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0598",
+    "source_asset_id": "AST-0033",
+    "target_asset_id": "AST-0196",
+    "principal_type": "user",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0599",
+    "source_asset_id": "AST-0896",
+    "target_asset_id": "AST-0110",
+    "principal_type": "system",
+    "permission": "administer",
+    "decision": "allow",
+    "condition": "MFA_required",
+    "synthetic_data": true
+  },
+  {
+    "rule_id": "ACL-0600",
+    "source_asset_id": "AST-0250",
+    "target_asset_id": "AST-0310",
+    "principal_type": "user",
+    "permission": "write",
+    "decision": "allow",
+    "condition": "business_hours",
+    "synthetic_data": true
+  }
+]

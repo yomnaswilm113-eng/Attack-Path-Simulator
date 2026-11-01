@@ -1,0 +1,13 @@
+scenario_id,name,start_asset_type,target_asset_type,objective,expected_test_focus
+SCN-01,Workstation to application tier,Workstation,WebApplication,Test reachability from user endpoints to a web application,valid paths and blocked edges
+SCN-02,Internet-facing entry point,WebApplication,Database,Assess modeled routes from public-facing apps toward data stores,segmentation and critical assets
+SCN-03,Identity service dependency,Workstation,IdentityService,Test identity-service dependencies,authentication relationships
+SCN-04,Backup protection,Server,BackupSystem,Test modeled backup connectivity and restrictions,backup isolation
+SCN-05,Cloud-to-database access,CloudResource,Database,Test cloud resources linked to data stores,cloud access controls
+SCN-06,High-criticality asset exposure,Workstation,Database,Review paths that could reach high-impact assets,criticality-aware ranking
+SCN-07,Administrative route review,Server,Server,Review administrative relationships,least privilege
+SCN-08,Network segmentation test,IoTDevice,Server,Test whether modeled segmentation blocks unwanted transitions,zone boundaries
+SCN-09,Security monitoring coverage,Server,SecurityAppliance,Test monitoring links in the asset inventory,monitoring relationships
+SCN-10,Backup vault isolation,CloudResource,BackupSystem,Review access paths to backup targets,backup policy
+SCN-11,Restricted data access,WebApplication,Database,Evaluate modeled access to confidential or restricted data,data sensitivity
+SCN-12,Disconnected asset handling,IoTDevice,IdentityService,Test no-path and disconnected-node cases,edge cases

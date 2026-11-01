@@ -1,0 +1,98 @@
+[
+  {
+    "scenario_id": "SCN-01",
+    "name": "Workstation to application tier",
+    "start_asset_type": "Workstation",
+    "target_asset_type": "WebApplication",
+    "objective": "Test reachability from user endpoints to a web application",
+    "expected_test_focus": "valid paths and blocked edges"
+  },
+  {
+    "scenario_id": "SCN-02",
+    "name": "Internet-facing entry point",
+    "start_asset_type": "WebApplication",
+    "target_asset_type": "Database",
+    "objective": "Assess modeled routes from public-facing apps toward data stores",
+    "expected_test_focus": "segmentation and critical assets"
+  },
+  {
+    "scenario_id": "SCN-03",
+    "name": "Identity service dependency",
+    "start_asset_type": "Workstation",
+    "target_asset_type": "IdentityService",
+    "objective": "Test identity-service dependencies",
+    "expected_test_focus": "authentication relationships"
+  },
+  {
+    "scenario_id": "SCN-04",
+    "name": "Backup protection",
+    "start_asset_type": "Server",
+    "target_asset_type": "BackupSystem",
+    "objective": "Test modeled backup connectivity and restrictions",
+    "expected_test_focus": "backup isolation"
+  },
+  {
+    "scenario_id": "SCN-05",
+    "name": "Cloud-to-database access",
+    "start_asset_type": "CloudResource",
+    "target_asset_type": "Database",
+    "objective": "Test cloud resources linked to data stores",
+    "expected_test_focus": "cloud access controls"
+  },
+  {
+    "scenario_id": "SCN-06",
+    "name": "High-criticality asset exposure",
+    "start_asset_type": "Workstation",
+    "target_asset_type": "Database",
+    "objective": "Review paths that could reach high-impact assets",
+    "expected_test_focus": "criticality-aware ranking"
+  },
+  {
+    "scenario_id": "SCN-07",
+    "name": "Administrative route review",
+    "start_asset_type": "Server",
+    "target_asset_type": "Server",
+    "objective": "Review administrative relationships",
+    "expected_test_focus": "least privilege"
+  },
+  {
+    "scenario_id": "SCN-08",
+    "name": "Network segmentation test",
+    "start_asset_type": "IoTDevice",
+    "target_asset_type": "Server",
+    "objective": "Test whether modeled segmentation blocks unwanted transitions",
+    "expected_test_focus": "zone boundaries"
+  },
+  {
+    "scenario_id": "SCN-09",
+    "name": "Security monitoring coverage",
+    "start_asset_type": "Server",
+    "target_asset_type": "SecurityAppliance",
+    "objective": "Test monitoring links in the asset inventory",
+    "expected_test_focus": "monitoring relationships"
+  },
+  {
+    "scenario_id": "SCN-10",
+    "name": "Backup vault isolation",
+    "start_asset_type": "CloudResource",
+    "target_asset_type": "BackupSystem",
+    "objective": "Review access paths to backup targets",
+    "expected_test_focus": "backup policy"
+  },
+  {
+    "scenario_id": "SCN-11",
+    "name": "Restricted data access",
+    "start_asset_type": "WebApplication",
+    "target_asset_type": "Database",
+    "objective": "Evaluate modeled access to confidential or restricted data",
+    "expected_test_focus": "data sensitivity"
+  },
+  {
+    "scenario_id": "SCN-12",
+    "name": "Disconnected asset handling",
+    "start_asset_type": "IoTDevice",
+    "target_asset_type": "IdentityService",
+    "objective": "Test no-path and disconnected-node cases",
+    "expected_test_focus": "edge cases"
+  }
+]

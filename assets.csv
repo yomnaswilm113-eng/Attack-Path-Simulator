@@ -1,0 +1,1001 @@
+asset_id,asset_name,asset_type,criticality,network_zone,exposure,operating_system_or_platform,department,is_business_critical,data_sensitivity,synthetic_data
+AST-0001,CloudResource_0001,CloudResource,medium,cloud,internal,Windows cloud VM,Finance,False,public,True
+AST-0002,Network_Device_0002,NetworkDevice,low,user_network,internal,Cisco IOS-like (synthetic),Research,False,public,True
+AST-0003,Network_Device_0003,NetworkDevice,medium,backup_network,internal,Linux-based router (synthetic),Engineering,False,public,True
+AST-0004,IdentityService_0004,IdentityService,medium,backup_network,restricted,Active Directory (synthetic),Operations,False,confidential,True
+AST-0005,Workstation_0005,Workstation,medium,server_network,internal,Ubuntu 24.04,Engineering,False,public,True
+AST-0006,CloudResource_0006,CloudResource,critical,server_network,internal,Managed Container (synthetic),Finance,True,confidential,True
+AST-0007,WebApplication_0007,WebApplication,medium,management,restricted,Nginx/Python (synthetic),IT,False,internal,True
+AST-0008,IdentityService_0008,IdentityService,high,server_network,internal,Active Directory (synthetic),Security,True,confidential,True
+AST-0009,Database_0009,Database,low,management,restricted,Microsoft SQL Server 2022,Operations,False,confidential,True
+AST-0010,CloudResource_0010,CloudResource,medium,server_network,internet_facing,Windows cloud VM,Research,False,internal,True
+AST-0011,Workstation_0011,Workstation,critical,cloud,internal,Windows 10,Sales,True,public,True
+AST-0012,Workstation_0012,Workstation,medium,management,restricted,Windows 11,Operations,False,confidential,True
+AST-0013,Workstation_0013,Workstation,high,backup_network,restricted,macOS,HR,True,confidential,True
+AST-0014,Workstation_0014,Workstation,high,cloud,internal,macOS,Security,True,confidential,True
+AST-0015,Workstation_0015,Workstation,medium,database_network,internet_facing,Windows 11,IT,False,public,True
+AST-0016,Workstation_0016,Workstation,medium,backup_network,restricted,macOS,Security,False,restricted,True
+AST-0017,Network_Device_0017,NetworkDevice,high,user_network,internal,Cisco IOS-like (synthetic),Research,True,confidential,True
+AST-0018,IdentityService_0018,IdentityService,medium,server_network,restricted,Active Directory (synthetic),Customer Support,False,public,True
+AST-0019,IoTDevice_0019,IoTDevice,critical,cloud,restricted,Camera (synthetic),Research,True,public,True
+AST-0020,BackupSystem_0020,BackupSystem,low,dmz,restricted,Backup appliance (synthetic),Research,False,public,True
+AST-0021,Network_Device_0021,NetworkDevice,low,user_network,internal,Juniper-like (synthetic),Engineering,False,internal,True
+AST-0022,Workstation_0022,Workstation,low,server_network,internal,macOS,Finance,False,internal,True
+AST-0023,Workstation_0023,Workstation,medium,database_network,restricted,macOS,Operations,False,internal,True
+AST-0024,CloudResource_0024,CloudResource,medium,management,internal,Managed Container (synthetic),Finance,False,internal,True
+AST-0025,Workstation_0025,Workstation,medium,user_network,internal,Windows 10,Operations,False,public,True
+AST-0026,Workstation_0026,Workstation,medium,user_network,restricted,Windows 11,Sales,False,public,True
+AST-0027,Database_0027,Database,low,security_network,internal,MySQL 8,Customer Support,False,internal,True
+AST-0028,IdentityService_0028,IdentityService,low,backup_network,internal,Active Directory (synthetic),Security,False,confidential,True
+AST-0029,Server_0029,Server,high,user_network,internal,Windows Server 2022,IT,True,restricted,True
+AST-0030,CloudResource_0030,CloudResource,medium,server_network,internal,Windows cloud VM,Research,False,restricted,True
+AST-0031,Workstation_0031,Workstation,medium,cloud,internal,Windows 11,Customer Support,False,public,True
+AST-0032,Workstation_0032,Workstation,critical,user_network,restricted,Windows 10,HR,True,restricted,True
+AST-0033,Database_0033,Database,critical,backup_network,internal,MySQL 8,Security,True,public,True
+AST-0034,Server_0034,Server,medium,security_network,internal,Debian 12,HR,False,internal,True
+AST-0035,Server_0035,Server,medium,user_network,internal,Windows Server 2022,Sales,False,public,True
+AST-0036,Workstation_0036,Workstation,low,database_network,internal,Windows 11,HR,False,public,True
+AST-0037,Network_Device_0037,NetworkDevice,medium,dmz,internal,Linux-based router (synthetic),Operations,False,public,True
+AST-0038,Network_Device_0038,NetworkDevice,critical,management,internal,Cisco IOS-like (synthetic),Sales,True,internal,True
+AST-0039,Server_0039,Server,medium,cloud,internal,Windows Server 2022,IT,False,restricted,True
+AST-0040,Network_Device_0040,NetworkDevice,low,server_network,internet_facing,Cisco IOS-like (synthetic),Research,False,confidential,True
+AST-0041,Workstation_0041,Workstation,high,server_network,internet_facing,Ubuntu 24.04,Engineering,True,internal,True
+AST-0042,Server_0042,Server,medium,cloud,restricted,Windows Server 2022,Research,False,confidential,True
+AST-0043,SecurityAppliance_0043,SecurityAppliance,medium,database_network,restricted,Firewall (synthetic),Research,False,internal,True
+AST-0044,Server_0044,Server,high,dmz,internal,Ubuntu Server 22.04,Engineering,True,restricted,True
+AST-0045,Workstation_0045,Workstation,low,user_network,internet_facing,macOS,Engineering,False,public,True
+AST-0046,Workstation_0046,Workstation,high,database_network,internal,Ubuntu 24.04,HR,True,restricted,True
+AST-0047,Network_Device_0047,NetworkDevice,low,user_network,restricted,Linux-based router (synthetic),HR,False,public,True
+AST-0048,WebApplication_0048,WebApplication,medium,database_network,internal,Nginx/Python (synthetic),Engineering,False,confidential,True
+AST-0049,SecurityAppliance_0049,SecurityAppliance,high,user_network,internet_facing,IDS/IPS (synthetic),Operations,True,public,True
+AST-0050,Server_0050,Server,critical,backup_network,restricted,Ubuntu Server 22.04,Operations,True,internal,True
+AST-0051,IoTDevice_0051,IoTDevice,high,database_network,restricted,Camera (synthetic),HR,True,confidential,True
+AST-0052,IdentityService_0052,IdentityService,medium,dmz,internet_facing,SSO Provider (synthetic),Finance,False,restricted,True
+AST-0053,BackupSystem_0053,BackupSystem,medium,security_network,internal,Linux backup server,Sales,False,confidential,True
+AST-0054,WebApplication_0054,WebApplication,medium,dmz,restricted,Apache/Java (synthetic),Security,False,confidential,True
+AST-0055,Server_0055,Server,medium,cloud,restricted,Debian 12,Research,False,confidential,True
+AST-0056,IoTDevice_0056,IoTDevice,low,cloud,internal,Badge reader (synthetic),IT,False,public,True
+AST-0057,Network_Device_0057,NetworkDevice,medium,management,internal,Linux-based router (synthetic),Finance,False,restricted,True
+AST-0058,SecurityAppliance_0058,SecurityAppliance,low,cloud,internal,SIEM collector (synthetic),IT,False,internal,True
+AST-0059,Server_0059,Server,high,management,internal,Windows Server 2022,Engineering,True,confidential,True
+AST-0060,CloudResource_0060,CloudResource,high,backup_network,internal,Windows cloud VM,Operations,True,restricted,True
+AST-0061,CloudResource_0061,CloudResource,medium,database_network,internet_facing,Object Storage (synthetic),Security,False,public,True
+AST-0062,Server_0062,Server,high,backup_network,internal,Red Hat Enterprise Linux 9,Customer Support,True,restricted,True
+AST-0063,Database_0063,Database,high,security_network,restricted,MySQL 8,Finance,True,confidential,True
+AST-0064,Database_0064,Database,low,management,restricted,MySQL 8,Engineering,False,internal,True
+AST-0065,WebApplication_0065,WebApplication,low,user_network,internal,IIS/.NET (synthetic),Finance,False,restricted,True
+AST-0066,Server_0066,Server,high,dmz,internet_facing,Debian 12,Customer Support,True,restricted,True
+AST-0067,Workstation_0067,Workstation,high,user_network,internal,Windows 11,Security,True,internal,True
+AST-0068,Workstation_0068,Workstation,low,security_network,restricted,Windows 10,Finance,False,restricted,True
+AST-0069,Workstation_0069,Workstation,critical,management,restricted,macOS,Research,True,restricted,True
+AST-0070,WebApplication_0070,WebApplication,high,security_network,internet_facing,IIS/.NET (synthetic),Customer Support,True,confidential,True
+AST-0071,IdentityService_0071,IdentityService,high,cloud,internal,SSO Provider (synthetic),Customer Support,True,internal,True
+AST-0072,Server_0072,Server,medium,cloud,internal,Red Hat Enterprise Linux 9,Sales,False,public,True
+AST-0073,Workstation_0073,Workstation,high,backup_network,internal,Windows 10,Finance,True,restricted,True
+AST-0074,Server_0074,Server,medium,security_network,internal,Ubuntu Server 22.04,Security,False,restricted,True
+AST-0075,SecurityAppliance_0075,SecurityAppliance,high,user_network,restricted,SIEM collector (synthetic),Customer Support,True,public,True
+AST-0076,IoTDevice_0076,IoTDevice,high,backup_network,internal,Badge reader (synthetic),Research,True,internal,True
+AST-0077,Database_0077,Database,medium,backup_network,internal,MongoDB 7,Sales,False,restricted,True
+AST-0078,CloudResource_0078,CloudResource,critical,security_network,internal,Linux cloud VM,Security,True,public,True
+AST-0079,Workstation_0079,Workstation,high,database_network,restricted,Windows 10,IT,True,confidential,True
+AST-0080,Server_0080,Server,medium,security_network,internal,Debian 12,Engineering,False,restricted,True
+AST-0081,Workstation_0081,Workstation,low,security_network,restricted,Windows 11,Sales,False,internal,True
+AST-0082,CloudResource_0082,CloudResource,high,user_network,internal,Windows cloud VM,Operations,True,public,True
+AST-0083,Network_Device_0083,NetworkDevice,medium,database_network,internal,Cisco IOS-like (synthetic),Operations,False,restricted,True
+AST-0084,CloudResource_0084,CloudResource,low,management,internal,Linux cloud VM,HR,False,confidential,True
+AST-0085,Workstation_0085,Workstation,medium,cloud,internal,macOS,Security,False,internal,True
+AST-0086,Workstation_0086,Workstation,low,dmz,internal,Ubuntu 24.04,Finance,False,public,True
+AST-0087,Server_0087,Server,low,management,internal,Red Hat Enterprise Linux 9,IT,False,restricted,True
+AST-0088,WebApplication_0088,WebApplication,critical,backup_network,internal,IIS/.NET (synthetic),HR,True,restricted,True
+AST-0089,Workstation_0089,Workstation,medium,cloud,restricted,macOS,Customer Support,False,restricted,True
+AST-0090,WebApplication_0090,WebApplication,medium,cloud,restricted,Apache/Java (synthetic),Finance,False,confidential,True
+AST-0091,BackupSystem_0091,BackupSystem,medium,security_network,internal,Cloud backup vault (synthetic),Security,False,confidential,True
+AST-0092,Workstation_0092,Workstation,low,management,internal,Windows 10,Sales,False,confidential,True
+AST-0093,Server_0093,Server,medium,cloud,internal,Ubuntu Server 22.04,Finance,False,internal,True
+AST-0094,CloudResource_0094,CloudResource,high,dmz,internal,Managed Container (synthetic),Customer Support,True,public,True
+AST-0095,Workstation_0095,Workstation,high,backup_network,internal,Ubuntu 24.04,Sales,True,restricted,True
+AST-0096,Network_Device_0096,NetworkDevice,critical,backup_network,internal,Linux-based router (synthetic),Sales,True,confidential,True
+AST-0097,CloudResource_0097,CloudResource,medium,cloud,internal,Linux cloud VM,Operations,False,confidential,True
+AST-0098,Workstation_0098,Workstation,low,database_network,restricted,macOS,Engineering,False,confidential,True
+AST-0099,Workstation_0099,Workstation,medium,cloud,restricted,Windows 10,Engineering,False,public,True
+AST-0100,CloudResource_0100,CloudResource,low,cloud,internal,Linux cloud VM,Research,False,confidential,True
+AST-0101,CloudResource_0101,CloudResource,low,security_network,internet_facing,Linux cloud VM,Engineering,False,restricted,True
+AST-0102,Database_0102,Database,critical,database_network,internal,Microsoft SQL Server 2022,Customer Support,True,public,True
+AST-0103,WebApplication_0103,WebApplication,low,security_network,internal,Nginx/Python (synthetic),HR,False,internal,True
+AST-0104,WebApplication_0104,WebApplication,low,cloud,internal,Apache/Java (synthetic),Finance,False,restricted,True
+AST-0105,Network_Device_0105,NetworkDevice,high,dmz,internal,Juniper-like (synthetic),Customer Support,True,restricted,True
+AST-0106,Server_0106,Server,medium,backup_network,restricted,Windows Server 2022,Finance,False,internal,True
+AST-0107,CloudResource_0107,CloudResource,low,server_network,internal,Windows cloud VM,Research,False,public,True
+AST-0108,Workstation_0108,Workstation,high,security_network,internal,macOS,Engineering,True,public,True
+AST-0109,Workstation_0109,Workstation,high,cloud,internal,macOS,Finance,True,internal,True
+AST-0110,SecurityAppliance_0110,SecurityAppliance,medium,dmz,internal,IDS/IPS (synthetic),HR,False,confidential,True
+AST-0111,WebApplication_0111,WebApplication,low,user_network,internal,Node.js (synthetic),Engineering,False,restricted,True
+AST-0112,Workstation_0112,Workstation,high,cloud,internal,Ubuntu 24.04,Research,True,restricted,True
+AST-0113,Server_0113,Server,high,user_network,internal,Red Hat Enterprise Linux 9,Engineering,True,public,True
+AST-0114,Workstation_0114,Workstation,critical,user_network,internal,Ubuntu 24.04,IT,True,internal,True
+AST-0115,Database_0115,Database,critical,security_network,internal,MySQL 8,Security,True,restricted,True
+AST-0116,IoTDevice_0116,IoTDevice,medium,management,internal,Badge reader (synthetic),Finance,False,internal,True
+AST-0117,Server_0117,Server,medium,security_network,internal,Debian 12,Research,False,public,True
+AST-0118,Database_0118,Database,medium,cloud,internal,MongoDB 7,Research,False,public,True
+AST-0119,CloudResource_0119,CloudResource,medium,security_network,restricted,Windows cloud VM,Research,False,confidential,True
+AST-0120,Network_Device_0120,NetworkDevice,high,security_network,restricted,Cisco IOS-like (synthetic),Engineering,True,internal,True
+AST-0121,SecurityAppliance_0121,SecurityAppliance,low,security_network,internal,IDS/IPS (synthetic),HR,False,confidential,True
+AST-0122,Network_Device_0122,NetworkDevice,low,backup_network,internal,Cisco IOS-like (synthetic),Customer Support,False,public,True
+AST-0123,CloudResource_0123,CloudResource,critical,security_network,restricted,Object Storage (synthetic),Research,True,confidential,True
+AST-0124,Server_0124,Server,medium,security_network,restricted,Ubuntu Server 22.04,Security,False,internal,True
+AST-0125,SecurityAppliance_0125,SecurityAppliance,high,database_network,internal,VPN gateway (synthetic),Security,True,confidential,True
+AST-0126,SecurityAppliance_0126,SecurityAppliance,high,cloud,restricted,VPN gateway (synthetic),Engineering,True,restricted,True
+AST-0127,BackupSystem_0127,BackupSystem,medium,security_network,internal,Cloud backup vault (synthetic),Research,False,restricted,True
+AST-0128,Database_0128,Database,critical,dmz,internet_facing,MySQL 8,Security,True,internal,True
+AST-0129,WebApplication_0129,WebApplication,medium,user_network,restricted,IIS/.NET (synthetic),Security,False,restricted,True
+AST-0130,CloudResource_0130,CloudResource,medium,database_network,restricted,Linux cloud VM,HR,False,confidential,True
+AST-0131,BackupSystem_0131,BackupSystem,low,security_network,internal,Linux backup server,IT,False,internal,True
+AST-0132,Server_0132,Server,low,database_network,internet_facing,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0133,CloudResource_0133,CloudResource,high,management,internal,Managed Container (synthetic),Sales,True,restricted,True
+AST-0134,BackupSystem_0134,BackupSystem,medium,server_network,internal,Cloud backup vault (synthetic),Engineering,False,internal,True
+AST-0135,IdentityService_0135,IdentityService,high,server_network,internal,SSO Provider (synthetic),Finance,True,restricted,True
+AST-0136,Workstation_0136,Workstation,low,user_network,restricted,Windows 11,Engineering,False,confidential,True
+AST-0137,Server_0137,Server,medium,dmz,internal,Ubuntu Server 22.04,HR,False,internal,True
+AST-0138,Workstation_0138,Workstation,medium,backup_network,internal,Windows 10,Customer Support,False,internal,True
+AST-0139,Workstation_0139,Workstation,medium,cloud,internal,Windows 11,Customer Support,False,confidential,True
+AST-0140,CloudResource_0140,CloudResource,medium,server_network,internal,Object Storage (synthetic),Engineering,False,restricted,True
+AST-0141,CloudResource_0141,CloudResource,low,cloud,internal,Managed Container (synthetic),Customer Support,False,public,True
+AST-0142,Workstation_0142,Workstation,medium,management,internal,Ubuntu 24.04,IT,False,restricted,True
+AST-0143,Server_0143,Server,critical,user_network,internal,Debian 12,Engineering,True,internal,True
+AST-0144,Network_Device_0144,NetworkDevice,high,dmz,restricted,Linux-based router (synthetic),Engineering,True,internal,True
+AST-0145,CloudResource_0145,CloudResource,medium,user_network,internal,Managed Container (synthetic),IT,False,confidential,True
+AST-0146,CloudResource_0146,CloudResource,medium,cloud,internal,Managed Container (synthetic),HR,False,internal,True
+AST-0147,Workstation_0147,Workstation,medium,management,restricted,Ubuntu 24.04,HR,False,confidential,True
+AST-0148,SecurityAppliance_0148,SecurityAppliance,critical,security_network,restricted,VPN gateway (synthetic),Sales,True,public,True
+AST-0149,Database_0149,Database,high,database_network,internet_facing,MySQL 8,Security,True,confidential,True
+AST-0150,Workstation_0150,Workstation,medium,user_network,restricted,Windows 11,Customer Support,False,confidential,True
+AST-0151,CloudResource_0151,CloudResource,medium,cloud,restricted,Object Storage (synthetic),Finance,False,internal,True
+AST-0152,Database_0152,Database,critical,management,internal,MySQL 8,Finance,True,restricted,True
+AST-0153,SecurityAppliance_0153,SecurityAppliance,low,backup_network,restricted,Firewall (synthetic),IT,False,confidential,True
+AST-0154,Database_0154,Database,high,dmz,internal,MySQL 8,Security,True,restricted,True
+AST-0155,Server_0155,Server,medium,backup_network,restricted,Ubuntu Server 22.04,Security,False,public,True
+AST-0156,WebApplication_0156,WebApplication,critical,backup_network,internal,Node.js (synthetic),IT,True,confidential,True
+AST-0157,Workstation_0157,Workstation,high,dmz,internal,Windows 11,Sales,True,confidential,True
+AST-0158,Workstation_0158,Workstation,critical,dmz,internal,macOS,Finance,True,internal,True
+AST-0159,CloudResource_0159,CloudResource,low,user_network,restricted,Object Storage (synthetic),Operations,False,internal,True
+AST-0160,WebApplication_0160,WebApplication,high,server_network,internal,Apache/Java (synthetic),Operations,True,internal,True
+AST-0161,Server_0161,Server,medium,user_network,restricted,Ubuntu Server 22.04,HR,False,confidential,True
+AST-0162,WebApplication_0162,WebApplication,low,user_network,internal,Node.js (synthetic),Operations,False,confidential,True
+AST-0163,Workstation_0163,Workstation,low,user_network,internal,macOS,Research,False,public,True
+AST-0164,IdentityService_0164,IdentityService,high,security_network,internal,SSO Provider (synthetic),Finance,True,restricted,True
+AST-0165,Database_0165,Database,high,user_network,internal,Microsoft SQL Server 2022,Customer Support,True,public,True
+AST-0166,Workstation_0166,Workstation,medium,backup_network,internet_facing,Windows 11,Customer Support,False,restricted,True
+AST-0167,Workstation_0167,Workstation,medium,management,internet_facing,Windows 11,HR,False,confidential,True
+AST-0168,Network_Device_0168,NetworkDevice,medium,management,restricted,Linux-based router (synthetic),Research,False,confidential,True
+AST-0169,Database_0169,Database,low,backup_network,internal,PostgreSQL 16,Research,False,internal,True
+AST-0170,Server_0170,Server,medium,dmz,internal,Debian 12,Security,False,restricted,True
+AST-0171,CloudResource_0171,CloudResource,medium,backup_network,internal,Object Storage (synthetic),Sales,False,internal,True
+AST-0172,CloudResource_0172,CloudResource,low,server_network,internet_facing,Linux cloud VM,Finance,False,restricted,True
+AST-0173,Workstation_0173,Workstation,high,management,restricted,Windows 11,Research,True,confidential,True
+AST-0174,CloudResource_0174,CloudResource,high,management,internal,Managed Container (synthetic),IT,True,confidential,True
+AST-0175,Network_Device_0175,NetworkDevice,medium,server_network,internal,Cisco IOS-like (synthetic),HR,False,restricted,True
+AST-0176,Workstation_0176,Workstation,high,management,restricted,Ubuntu 24.04,Finance,True,confidential,True
+AST-0177,Network_Device_0177,NetworkDevice,high,backup_network,internal,Linux-based router (synthetic),Research,True,public,True
+AST-0178,Network_Device_0178,NetworkDevice,low,cloud,internet_facing,Juniper-like (synthetic),Engineering,False,confidential,True
+AST-0179,Server_0179,Server,medium,database_network,internal,Debian 12,Finance,False,internal,True
+AST-0180,CloudResource_0180,CloudResource,low,user_network,restricted,Windows cloud VM,Security,False,restricted,True
+AST-0181,Database_0181,Database,medium,management,internal,Microsoft SQL Server 2022,Finance,False,public,True
+AST-0182,Workstation_0182,Workstation,high,user_network,internal,Ubuntu 24.04,Customer Support,True,restricted,True
+AST-0183,Database_0183,Database,medium,backup_network,internal,PostgreSQL 16,Sales,False,restricted,True
+AST-0184,Workstation_0184,Workstation,medium,security_network,internal,Ubuntu 24.04,IT,False,internal,True
+AST-0185,Server_0185,Server,low,user_network,internet_facing,Red Hat Enterprise Linux 9,Operations,False,internal,True
+AST-0186,IdentityService_0186,IdentityService,low,management,internal,LDAP (synthetic),Security,False,internal,True
+AST-0187,Workstation_0187,Workstation,medium,dmz,internal,Ubuntu 24.04,Finance,False,restricted,True
+AST-0188,BackupSystem_0188,BackupSystem,low,backup_network,restricted,Backup appliance (synthetic),Sales,False,restricted,True
+AST-0189,Network_Device_0189,NetworkDevice,medium,backup_network,internal,Juniper-like (synthetic),IT,False,confidential,True
+AST-0190,Workstation_0190,Workstation,high,security_network,restricted,Ubuntu 24.04,Finance,True,restricted,True
+AST-0191,WebApplication_0191,WebApplication,medium,backup_network,internal,Nginx/Python (synthetic),Security,False,confidential,True
+AST-0192,IdentityService_0192,IdentityService,high,management,internal,Active Directory (synthetic),Research,True,public,True
+AST-0193,Network_Device_0193,NetworkDevice,medium,management,internal,Linux-based router (synthetic),HR,False,internal,True
+AST-0194,Workstation_0194,Workstation,low,dmz,internal,Windows 10,Finance,False,internal,True
+AST-0195,IoTDevice_0195,IoTDevice,medium,security_network,restricted,Sensor gateway (synthetic),Customer Support,False,confidential,True
+AST-0196,BackupSystem_0196,BackupSystem,low,management,internet_facing,Backup appliance (synthetic),Customer Support,False,restricted,True
+AST-0197,CloudResource_0197,CloudResource,medium,cloud,internal,Object Storage (synthetic),Research,False,public,True
+AST-0198,Server_0198,Server,low,user_network,internal,Red Hat Enterprise Linux 9,Finance,False,public,True
+AST-0199,Network_Device_0199,NetworkDevice,medium,backup_network,internal,Linux-based router (synthetic),IT,False,restricted,True
+AST-0200,SecurityAppliance_0200,SecurityAppliance,medium,dmz,restricted,SIEM collector (synthetic),Research,False,internal,True
+AST-0201,IoTDevice_0201,IoTDevice,high,server_network,internal,Badge reader (synthetic),Finance,True,internal,True
+AST-0202,Workstation_0202,Workstation,critical,security_network,internal,Windows 10,Sales,True,confidential,True
+AST-0203,SecurityAppliance_0203,SecurityAppliance,high,backup_network,internal,Firewall (synthetic),Sales,True,public,True
+AST-0204,Server_0204,Server,medium,backup_network,internal,Ubuntu Server 22.04,Sales,False,public,True
+AST-0205,Network_Device_0205,NetworkDevice,medium,management,restricted,Linux-based router (synthetic),Security,False,internal,True
+AST-0206,Network_Device_0206,NetworkDevice,medium,server_network,restricted,Juniper-like (synthetic),Sales,False,internal,True
+AST-0207,CloudResource_0207,CloudResource,high,server_network,restricted,Managed Container (synthetic),Research,True,confidential,True
+AST-0208,Workstation_0208,Workstation,critical,database_network,internal,Ubuntu 24.04,Customer Support,True,internal,True
+AST-0209,Workstation_0209,Workstation,low,database_network,internet_facing,Windows 11,Research,False,public,True
+AST-0210,CloudResource_0210,CloudResource,medium,database_network,internal,Windows cloud VM,HR,False,internal,True
+AST-0211,WebApplication_0211,WebApplication,high,database_network,restricted,Nginx/Python (synthetic),Security,True,confidential,True
+AST-0212,CloudResource_0212,CloudResource,medium,security_network,restricted,Managed Container (synthetic),Operations,False,internal,True
+AST-0213,Server_0213,Server,critical,security_network,internet_facing,Ubuntu Server 22.04,Sales,True,restricted,True
+AST-0214,Database_0214,Database,medium,backup_network,restricted,MongoDB 7,HR,False,internal,True
+AST-0215,WebApplication_0215,WebApplication,low,cloud,internal,IIS/.NET (synthetic),Sales,False,public,True
+AST-0216,CloudResource_0216,CloudResource,medium,server_network,restricted,Windows cloud VM,Engineering,False,restricted,True
+AST-0217,SecurityAppliance_0217,SecurityAppliance,low,backup_network,internal,IDS/IPS (synthetic),Customer Support,False,confidential,True
+AST-0218,SecurityAppliance_0218,SecurityAppliance,medium,user_network,internal,VPN gateway (synthetic),Operations,False,restricted,True
+AST-0219,Workstation_0219,Workstation,medium,user_network,internal,Windows 11,Sales,False,internal,True
+AST-0220,Workstation_0220,Workstation,high,security_network,internal,Windows 10,Customer Support,True,restricted,True
+AST-0221,Network_Device_0221,NetworkDevice,low,server_network,internal,Cisco IOS-like (synthetic),HR,False,restricted,True
+AST-0222,Workstation_0222,Workstation,medium,dmz,restricted,Windows 11,Operations,False,restricted,True
+AST-0223,CloudResource_0223,CloudResource,low,security_network,restricted,Managed Container (synthetic),Research,False,public,True
+AST-0224,CloudResource_0224,CloudResource,high,dmz,internal,Object Storage (synthetic),Security,True,public,True
+AST-0225,Network_Device_0225,NetworkDevice,low,backup_network,internal,Linux-based router (synthetic),Finance,False,confidential,True
+AST-0226,Workstation_0226,Workstation,medium,user_network,internet_facing,macOS,IT,False,restricted,True
+AST-0227,Server_0227,Server,medium,user_network,internal,Windows Server 2022,Sales,False,internal,True
+AST-0228,CloudResource_0228,CloudResource,high,server_network,restricted,Object Storage (synthetic),HR,True,public,True
+AST-0229,Server_0229,Server,high,database_network,internal,Debian 12,Customer Support,True,internal,True
+AST-0230,WebApplication_0230,WebApplication,low,security_network,internal,Apache/Java (synthetic),IT,False,internal,True
+AST-0231,BackupSystem_0231,BackupSystem,medium,cloud,internal,Cloud backup vault (synthetic),Customer Support,False,confidential,True
+AST-0232,Workstation_0232,Workstation,medium,dmz,restricted,Windows 11,Sales,False,confidential,True
+AST-0233,Workstation_0233,Workstation,high,backup_network,restricted,macOS,Security,True,confidential,True
+AST-0234,IoTDevice_0234,IoTDevice,medium,security_network,internal,Sensor gateway (synthetic),Engineering,False,public,True
+AST-0235,CloudResource_0235,CloudResource,medium,backup_network,internal,Windows cloud VM,Research,False,confidential,True
+AST-0236,Server_0236,Server,high,management,internal,Red Hat Enterprise Linux 9,Customer Support,True,restricted,True
+AST-0237,Workstation_0237,Workstation,medium,management,restricted,Ubuntu 24.04,Security,False,confidential,True
+AST-0238,CloudResource_0238,CloudResource,low,user_network,internet_facing,Managed Container (synthetic),Sales,False,internal,True
+AST-0239,IoTDevice_0239,IoTDevice,low,security_network,internal,Camera (synthetic),Operations,False,confidential,True
+AST-0240,Server_0240,Server,medium,user_network,internal,Debian 12,Sales,False,confidential,True
+AST-0241,Database_0241,Database,medium,database_network,restricted,MongoDB 7,Sales,False,confidential,True
+AST-0242,Workstation_0242,Workstation,high,user_network,internet_facing,macOS,Research,True,restricted,True
+AST-0243,SecurityAppliance_0243,SecurityAppliance,high,cloud,internal,SIEM collector (synthetic),Operations,True,confidential,True
+AST-0244,CloudResource_0244,CloudResource,low,security_network,internet_facing,Windows cloud VM,Finance,False,restricted,True
+AST-0245,Workstation_0245,Workstation,critical,security_network,internet_facing,Ubuntu 24.04,Sales,True,public,True
+AST-0246,Network_Device_0246,NetworkDevice,high,cloud,internal,Linux-based router (synthetic),HR,True,confidential,True
+AST-0247,Database_0247,Database,high,dmz,internal,MySQL 8,Customer Support,True,public,True
+AST-0248,Server_0248,Server,medium,management,internal,Ubuntu Server 22.04,Finance,False,public,True
+AST-0249,Server_0249,Server,medium,security_network,internal,Debian 12,Finance,False,internal,True
+AST-0250,IoTDevice_0250,IoTDevice,medium,server_network,internal,Sensor gateway (synthetic),Research,False,confidential,True
+AST-0251,Workstation_0251,Workstation,high,database_network,internet_facing,Windows 10,Security,True,public,True
+AST-0252,WebApplication_0252,WebApplication,medium,database_network,internal,Apache/Java (synthetic),Sales,False,internal,True
+AST-0253,Server_0253,Server,high,cloud,internet_facing,Red Hat Enterprise Linux 9,Operations,True,confidential,True
+AST-0254,Workstation_0254,Workstation,medium,server_network,restricted,Windows 10,HR,False,internal,True
+AST-0255,CloudResource_0255,CloudResource,high,management,restricted,Linux cloud VM,IT,True,public,True
+AST-0256,Workstation_0256,Workstation,high,cloud,internet_facing,macOS,IT,True,restricted,True
+AST-0257,BackupSystem_0257,BackupSystem,high,cloud,restricted,Linux backup server,Customer Support,True,internal,True
+AST-0258,WebApplication_0258,WebApplication,medium,backup_network,restricted,Nginx/Python (synthetic),IT,False,internal,True
+AST-0259,Database_0259,Database,low,security_network,internal,MySQL 8,Sales,False,confidential,True
+AST-0260,CloudResource_0260,CloudResource,critical,management,internet_facing,Windows cloud VM,Sales,True,public,True
+AST-0261,Server_0261,Server,medium,server_network,internal,Ubuntu Server 22.04,HR,False,public,True
+AST-0262,Workstation_0262,Workstation,high,backup_network,internal,macOS,Operations,True,internal,True
+AST-0263,WebApplication_0263,WebApplication,low,management,internal,Apache/Java (synthetic),Customer Support,False,restricted,True
+AST-0264,Database_0264,Database,low,security_network,internet_facing,MongoDB 7,Research,False,restricted,True
+AST-0265,IoTDevice_0265,IoTDevice,low,management,internal,Badge reader (synthetic),Customer Support,False,restricted,True
+AST-0266,Server_0266,Server,medium,server_network,internal,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0267,Server_0267,Server,medium,user_network,internal,Ubuntu Server 22.04,Sales,False,confidential,True
+AST-0268,Workstation_0268,Workstation,high,security_network,internal,Ubuntu 24.04,Finance,True,internal,True
+AST-0269,IoTDevice_0269,IoTDevice,high,management,internal,Badge reader (synthetic),Research,True,confidential,True
+AST-0270,IdentityService_0270,IdentityService,medium,backup_network,internal,Active Directory (synthetic),IT,False,internal,True
+AST-0271,CloudResource_0271,CloudResource,medium,security_network,internal,Windows cloud VM,Research,False,internal,True
+AST-0272,Server_0272,Server,low,management,internet_facing,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0273,CloudResource_0273,CloudResource,high,security_network,internal,Object Storage (synthetic),Sales,True,public,True
+AST-0274,Server_0274,Server,medium,user_network,internal,Red Hat Enterprise Linux 9,Operations,False,public,True
+AST-0275,Network_Device_0275,NetworkDevice,low,backup_network,internal,Linux-based router (synthetic),Operations,False,public,True
+AST-0276,Network_Device_0276,NetworkDevice,low,server_network,internet_facing,Juniper-like (synthetic),Sales,False,restricted,True
+AST-0277,Workstation_0277,Workstation,medium,dmz,internal,macOS,IT,False,internal,True
+AST-0278,Database_0278,Database,critical,management,internal,MongoDB 7,Research,True,restricted,True
+AST-0279,Server_0279,Server,critical,security_network,internet_facing,Red Hat Enterprise Linux 9,Research,True,confidential,True
+AST-0280,CloudResource_0280,CloudResource,medium,cloud,restricted,Windows cloud VM,Operations,False,confidential,True
+AST-0281,Network_Device_0281,NetworkDevice,high,cloud,internal,Linux-based router (synthetic),Operations,True,restricted,True
+AST-0282,Server_0282,Server,medium,cloud,internal,Debian 12,Security,False,confidential,True
+AST-0283,IoTDevice_0283,IoTDevice,medium,database_network,restricted,Badge reader (synthetic),Finance,False,confidential,True
+AST-0284,SecurityAppliance_0284,SecurityAppliance,high,cloud,internal,IDS/IPS (synthetic),Operations,True,confidential,True
+AST-0285,SecurityAppliance_0285,SecurityAppliance,low,cloud,internal,IDS/IPS (synthetic),Operations,False,public,True
+AST-0286,CloudResource_0286,CloudResource,high,dmz,internet_facing,Linux cloud VM,Finance,True,restricted,True
+AST-0287,Server_0287,Server,high,server_network,restricted,Ubuntu Server 22.04,IT,True,internal,True
+AST-0288,Server_0288,Server,medium,security_network,restricted,Ubuntu Server 22.04,Engineering,False,confidential,True
+AST-0289,Server_0289,Server,high,server_network,restricted,Ubuntu Server 22.04,Research,True,public,True
+AST-0290,SecurityAppliance_0290,SecurityAppliance,high,backup_network,internet_facing,IDS/IPS (synthetic),IT,True,restricted,True
+AST-0291,WebApplication_0291,WebApplication,high,cloud,internal,Nginx/Python (synthetic),Engineering,True,public,True
+AST-0292,SecurityAppliance_0292,SecurityAppliance,medium,cloud,internet_facing,SIEM collector (synthetic),HR,False,restricted,True
+AST-0293,Server_0293,Server,medium,server_network,internal,Debian 12,Engineering,False,internal,True
+AST-0294,Workstation_0294,Workstation,medium,cloud,restricted,Windows 10,HR,False,restricted,True
+AST-0295,WebApplication_0295,WebApplication,low,management,internal,Nginx/Python (synthetic),HR,False,internal,True
+AST-0296,Database_0296,Database,low,dmz,internal,MongoDB 7,Operations,False,restricted,True
+AST-0297,IdentityService_0297,IdentityService,medium,management,internal,SSO Provider (synthetic),IT,False,confidential,True
+AST-0298,CloudResource_0298,CloudResource,low,dmz,internal,Linux cloud VM,Customer Support,False,confidential,True
+AST-0299,Workstation_0299,Workstation,high,cloud,internal,Ubuntu 24.04,Sales,True,internal,True
+AST-0300,Workstation_0300,Workstation,low,security_network,internet_facing,Ubuntu 24.04,Security,False,restricted,True
+AST-0301,IdentityService_0301,IdentityService,high,dmz,internal,SSO Provider (synthetic),Finance,True,restricted,True
+AST-0302,Network_Device_0302,NetworkDevice,critical,server_network,restricted,Cisco IOS-like (synthetic),IT,True,internal,True
+AST-0303,Network_Device_0303,NetworkDevice,medium,database_network,internal,Linux-based router (synthetic),Customer Support,False,public,True
+AST-0304,CloudResource_0304,CloudResource,low,security_network,internal,Managed Container (synthetic),IT,False,restricted,True
+AST-0305,Workstation_0305,Workstation,medium,security_network,internal,macOS,Engineering,False,public,True
+AST-0306,Server_0306,Server,high,user_network,internal,Windows Server 2022,IT,True,restricted,True
+AST-0307,Server_0307,Server,critical,user_network,restricted,Windows Server 2022,Customer Support,True,public,True
+AST-0308,Server_0308,Server,high,database_network,internal,Debian 12,Sales,True,restricted,True
+AST-0309,Database_0309,Database,medium,backup_network,restricted,MySQL 8,Sales,False,public,True
+AST-0310,Workstation_0310,Workstation,medium,backup_network,internet_facing,Windows 10,IT,False,public,True
+AST-0311,Server_0311,Server,medium,backup_network,internal,Ubuntu Server 22.04,Operations,False,restricted,True
+AST-0312,Server_0312,Server,critical,dmz,internal,Windows Server 2022,IT,True,restricted,True
+AST-0313,Network_Device_0313,NetworkDevice,medium,user_network,restricted,Cisco IOS-like (synthetic),Finance,False,public,True
+AST-0314,Database_0314,Database,medium,user_network,internal,PostgreSQL 16,Security,False,restricted,True
+AST-0315,Workstation_0315,Workstation,low,user_network,internal,Ubuntu 24.04,Operations,False,confidential,True
+AST-0316,Network_Device_0316,NetworkDevice,medium,management,internal,Cisco IOS-like (synthetic),Research,False,internal,True
+AST-0317,Server_0317,Server,medium,user_network,internal,Ubuntu Server 22.04,Security,False,restricted,True
+AST-0318,Workstation_0318,Workstation,high,backup_network,internet_facing,Ubuntu 24.04,Security,True,restricted,True
+AST-0319,Workstation_0319,Workstation,high,database_network,internal,macOS,Operations,True,internal,True
+AST-0320,Server_0320,Server,high,database_network,restricted,Windows Server 2022,Research,True,restricted,True
+AST-0321,IoTDevice_0321,IoTDevice,medium,database_network,internal,Badge reader (synthetic),Operations,False,confidential,True
+AST-0322,CloudResource_0322,CloudResource,high,security_network,internal,Linux cloud VM,Research,True,internal,True
+AST-0323,Workstation_0323,Workstation,high,user_network,internal,Windows 10,Research,True,internal,True
+AST-0324,Database_0324,Database,medium,management,internal,PostgreSQL 16,Operations,False,internal,True
+AST-0325,IoTDevice_0325,IoTDevice,critical,security_network,restricted,Sensor gateway (synthetic),Operations,True,restricted,True
+AST-0326,SecurityAppliance_0326,SecurityAppliance,high,management,internal,SIEM collector (synthetic),Customer Support,True,confidential,True
+AST-0327,Server_0327,Server,medium,security_network,internal,Debian 12,Sales,False,internal,True
+AST-0328,Server_0328,Server,medium,user_network,internal,Ubuntu Server 22.04,HR,False,public,True
+AST-0329,Server_0329,Server,medium,backup_network,internal,Ubuntu Server 22.04,Sales,False,internal,True
+AST-0330,Server_0330,Server,medium,dmz,internal,Red Hat Enterprise Linux 9,Engineering,False,restricted,True
+AST-0331,IoTDevice_0331,IoTDevice,medium,security_network,restricted,Sensor gateway (synthetic),Sales,False,internal,True
+AST-0332,Workstation_0332,Workstation,low,security_network,restricted,Windows 11,Research,False,public,True
+AST-0333,WebApplication_0333,WebApplication,high,user_network,restricted,IIS/.NET (synthetic),HR,True,internal,True
+AST-0334,Workstation_0334,Workstation,low,user_network,restricted,macOS,Sales,False,public,True
+AST-0335,Network_Device_0335,NetworkDevice,high,security_network,restricted,Cisco IOS-like (synthetic),IT,True,restricted,True
+AST-0336,Workstation_0336,Workstation,medium,cloud,internal,Ubuntu 24.04,IT,False,restricted,True
+AST-0337,WebApplication_0337,WebApplication,low,database_network,internet_facing,Nginx/Python (synthetic),Research,False,internal,True
+AST-0338,Workstation_0338,Workstation,high,cloud,internal,Ubuntu 24.04,Security,True,public,True
+AST-0339,Server_0339,Server,medium,security_network,internet_facing,Ubuntu Server 22.04,Engineering,False,public,True
+AST-0340,CloudResource_0340,CloudResource,low,user_network,internet_facing,Managed Container (synthetic),Security,False,restricted,True
+AST-0341,Workstation_0341,Workstation,low,database_network,restricted,macOS,Sales,False,public,True
+AST-0342,SecurityAppliance_0342,SecurityAppliance,medium,user_network,internal,SIEM collector (synthetic),Engineering,False,public,True
+AST-0343,SecurityAppliance_0343,SecurityAppliance,high,cloud,internal,Firewall (synthetic),HR,True,confidential,True
+AST-0344,Workstation_0344,Workstation,high,database_network,internet_facing,macOS,Finance,True,confidential,True
+AST-0345,Workstation_0345,Workstation,high,backup_network,internal,Ubuntu 24.04,Security,True,internal,True
+AST-0346,WebApplication_0346,WebApplication,medium,server_network,internet_facing,Node.js (synthetic),IT,False,public,True
+AST-0347,Server_0347,Server,medium,server_network,internal,Debian 12,Sales,False,public,True
+AST-0348,CloudResource_0348,CloudResource,medium,security_network,internal,Object Storage (synthetic),Research,False,restricted,True
+AST-0349,Server_0349,Server,low,backup_network,internal,Red Hat Enterprise Linux 9,Operations,False,public,True
+AST-0350,Workstation_0350,Workstation,high,backup_network,internal,Windows 10,Security,True,confidential,True
+AST-0351,Server_0351,Server,critical,user_network,internal,Debian 12,Sales,True,confidential,True
+AST-0352,Workstation_0352,Workstation,medium,database_network,internal,macOS,Finance,False,public,True
+AST-0353,Workstation_0353,Workstation,medium,server_network,internal,Ubuntu 24.04,Security,False,public,True
+AST-0354,Server_0354,Server,high,server_network,internal,Ubuntu Server 22.04,Research,True,internal,True
+AST-0355,CloudResource_0355,CloudResource,medium,database_network,internal,Object Storage (synthetic),Customer Support,False,internal,True
+AST-0356,Workstation_0356,Workstation,medium,cloud,internal,macOS,Finance,False,confidential,True
+AST-0357,Workstation_0357,Workstation,medium,security_network,internet_facing,Windows 10,Customer Support,False,public,True
+AST-0358,Workstation_0358,Workstation,medium,backup_network,internal,macOS,Sales,False,restricted,True
+AST-0359,Server_0359,Server,medium,database_network,internal,Ubuntu Server 22.04,Customer Support,False,confidential,True
+AST-0360,Workstation_0360,Workstation,medium,management,internet_facing,macOS,Operations,False,confidential,True
+AST-0361,Server_0361,Server,medium,backup_network,internal,Ubuntu Server 22.04,Research,False,internal,True
+AST-0362,CloudResource_0362,CloudResource,critical,user_network,restricted,Managed Container (synthetic),Operations,True,restricted,True
+AST-0363,WebApplication_0363,WebApplication,high,server_network,internal,IIS/.NET (synthetic),Customer Support,True,internal,True
+AST-0364,CloudResource_0364,CloudResource,high,cloud,internal,Managed Container (synthetic),Security,True,public,True
+AST-0365,Database_0365,Database,medium,security_network,internet_facing,MongoDB 7,Research,False,public,True
+AST-0366,WebApplication_0366,WebApplication,low,server_network,internet_facing,Apache/Java (synthetic),Sales,False,internal,True
+AST-0367,CloudResource_0367,CloudResource,critical,backup_network,internal,Object Storage (synthetic),Security,True,public,True
+AST-0368,Workstation_0368,Workstation,medium,dmz,internal,Windows 10,Customer Support,False,confidential,True
+AST-0369,Server_0369,Server,medium,database_network,internal,Windows Server 2022,Customer Support,False,public,True
+AST-0370,Server_0370,Server,low,server_network,internal,Ubuntu Server 22.04,Sales,False,confidential,True
+AST-0371,Server_0371,Server,medium,dmz,internal,Red Hat Enterprise Linux 9,Customer Support,False,public,True
+AST-0372,Server_0372,Server,medium,security_network,restricted,Red Hat Enterprise Linux 9,IT,False,public,True
+AST-0373,Workstation_0373,Workstation,high,server_network,restricted,Windows 10,Operations,True,internal,True
+AST-0374,Network_Device_0374,NetworkDevice,critical,backup_network,internal,Cisco IOS-like (synthetic),Security,True,internal,True
+AST-0375,Workstation_0375,Workstation,medium,backup_network,restricted,Windows 10,Customer Support,False,restricted,True
+AST-0376,Server_0376,Server,low,dmz,internal,Windows Server 2022,Finance,False,internal,True
+AST-0377,Server_0377,Server,low,security_network,internal,Debian 12,Research,False,confidential,True
+AST-0378,Network_Device_0378,NetworkDevice,medium,backup_network,internal,Juniper-like (synthetic),Sales,False,restricted,True
+AST-0379,Network_Device_0379,NetworkDevice,critical,cloud,internal,Linux-based router (synthetic),Finance,True,internal,True
+AST-0380,Server_0380,Server,low,cloud,internal,Red Hat Enterprise Linux 9,HR,False,restricted,True
+AST-0381,Server_0381,Server,medium,backup_network,internal,Debian 12,Research,False,internal,True
+AST-0382,Network_Device_0382,NetworkDevice,low,cloud,internal,Juniper-like (synthetic),Customer Support,False,public,True
+AST-0383,BackupSystem_0383,BackupSystem,medium,user_network,internal,Backup appliance (synthetic),Security,False,restricted,True
+AST-0384,Server_0384,Server,high,backup_network,restricted,Debian 12,Customer Support,True,internal,True
+AST-0385,Workstation_0385,Workstation,medium,dmz,internal,Ubuntu 24.04,Operations,False,confidential,True
+AST-0386,Workstation_0386,Workstation,medium,security_network,restricted,Windows 11,Finance,False,confidential,True
+AST-0387,IdentityService_0387,IdentityService,medium,management,internal,Active Directory (synthetic),Customer Support,False,internal,True
+AST-0388,Server_0388,Server,medium,dmz,internal,Windows Server 2022,Customer Support,False,confidential,True
+AST-0389,Server_0389,Server,medium,server_network,restricted,Windows Server 2022,Operations,False,internal,True
+AST-0390,WebApplication_0390,WebApplication,high,management,restricted,IIS/.NET (synthetic),HR,True,internal,True
+AST-0391,IdentityService_0391,IdentityService,high,dmz,internal,SSO Provider (synthetic),Sales,True,confidential,True
+AST-0392,Network_Device_0392,NetworkDevice,critical,management,internal,Juniper-like (synthetic),Engineering,True,confidential,True
+AST-0393,IoTDevice_0393,IoTDevice,low,server_network,restricted,Badge reader (synthetic),IT,False,confidential,True
+AST-0394,BackupSystem_0394,BackupSystem,medium,database_network,restricted,Cloud backup vault (synthetic),Sales,False,internal,True
+AST-0395,IdentityService_0395,IdentityService,medium,backup_network,restricted,SSO Provider (synthetic),Engineering,False,restricted,True
+AST-0396,Server_0396,Server,medium,server_network,internal,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0397,IoTDevice_0397,IoTDevice,high,user_network,internal,Sensor gateway (synthetic),Finance,True,restricted,True
+AST-0398,CloudResource_0398,CloudResource,high,management,restricted,Managed Container (synthetic),Operations,True,restricted,True
+AST-0399,WebApplication_0399,WebApplication,medium,cloud,internal,Node.js (synthetic),Sales,False,internal,True
+AST-0400,Network_Device_0400,NetworkDevice,high,management,restricted,Cisco IOS-like (synthetic),IT,True,public,True
+AST-0401,CloudResource_0401,CloudResource,low,security_network,restricted,Windows cloud VM,Customer Support,False,restricted,True
+AST-0402,Workstation_0402,Workstation,low,backup_network,internet_facing,Windows 10,Engineering,False,internal,True
+AST-0403,BackupSystem_0403,BackupSystem,low,cloud,internet_facing,Linux backup server,Engineering,False,public,True
+AST-0404,Server_0404,Server,low,database_network,restricted,Red Hat Enterprise Linux 9,Operations,False,restricted,True
+AST-0405,CloudResource_0405,CloudResource,low,server_network,internal,Managed Container (synthetic),Finance,False,internal,True
+AST-0406,Network_Device_0406,NetworkDevice,low,security_network,internal,Linux-based router (synthetic),Sales,False,public,True
+AST-0407,BackupSystem_0407,BackupSystem,medium,database_network,internal,Backup appliance (synthetic),Security,False,public,True
+AST-0408,CloudResource_0408,CloudResource,medium,server_network,restricted,Object Storage (synthetic),HR,False,restricted,True
+AST-0409,IdentityService_0409,IdentityService,high,database_network,restricted,SSO Provider (synthetic),HR,True,public,True
+AST-0410,Network_Device_0410,NetworkDevice,medium,database_network,internal,Linux-based router (synthetic),Operations,False,internal,True
+AST-0411,SecurityAppliance_0411,SecurityAppliance,high,security_network,internal,Firewall (synthetic),Finance,True,internal,True
+AST-0412,IdentityService_0412,IdentityService,medium,backup_network,internal,LDAP (synthetic),Sales,False,internal,True
+AST-0413,Workstation_0413,Workstation,medium,server_network,internal,Ubuntu 24.04,IT,False,confidential,True
+AST-0414,Workstation_0414,Workstation,high,dmz,internal,Ubuntu 24.04,IT,True,internal,True
+AST-0415,Database_0415,Database,medium,dmz,internal,PostgreSQL 16,Research,False,public,True
+AST-0416,Server_0416,Server,medium,database_network,internet_facing,Debian 12,Sales,False,internal,True
+AST-0417,IdentityService_0417,IdentityService,low,server_network,internal,Active Directory (synthetic),IT,False,confidential,True
+AST-0418,Workstation_0418,Workstation,critical,user_network,internal,macOS,Research,True,confidential,True
+AST-0419,CloudResource_0419,CloudResource,medium,backup_network,restricted,Managed Container (synthetic),Finance,False,internal,True
+AST-0420,Server_0420,Server,medium,server_network,internal,Ubuntu Server 22.04,HR,False,confidential,True
+AST-0421,Server_0421,Server,medium,server_network,internal,Debian 12,Operations,False,public,True
+AST-0422,Workstation_0422,Workstation,low,backup_network,internal,Windows 11,Engineering,False,internal,True
+AST-0423,Workstation_0423,Workstation,high,database_network,internal,Windows 10,Customer Support,True,confidential,True
+AST-0424,Database_0424,Database,low,cloud,internal,MySQL 8,Engineering,False,public,True
+AST-0425,IdentityService_0425,IdentityService,high,management,internet_facing,LDAP (synthetic),Research,True,public,True
+AST-0426,Server_0426,Server,medium,server_network,restricted,Red Hat Enterprise Linux 9,IT,False,restricted,True
+AST-0427,WebApplication_0427,WebApplication,low,management,internal,Nginx/Python (synthetic),Finance,False,internal,True
+AST-0428,CloudResource_0428,CloudResource,high,user_network,internal,Linux cloud VM,Operations,True,public,True
+AST-0429,Database_0429,Database,low,database_network,internal,PostgreSQL 16,Research,False,restricted,True
+AST-0430,Workstation_0430,Workstation,critical,backup_network,internal,Ubuntu 24.04,Engineering,True,public,True
+AST-0431,Network_Device_0431,NetworkDevice,low,user_network,internal,Linux-based router (synthetic),IT,False,restricted,True
+AST-0432,Workstation_0432,Workstation,high,cloud,internet_facing,Ubuntu 24.04,Sales,True,public,True
+AST-0433,Network_Device_0433,NetworkDevice,low,management,internal,Linux-based router (synthetic),Engineering,False,internal,True
+AST-0434,Database_0434,Database,critical,security_network,internal,MySQL 8,Research,True,internal,True
+AST-0435,Workstation_0435,Workstation,low,backup_network,internal,Ubuntu 24.04,IT,False,confidential,True
+AST-0436,Workstation_0436,Workstation,high,backup_network,restricted,Ubuntu 24.04,Finance,True,internal,True
+AST-0437,Network_Device_0437,NetworkDevice,medium,backup_network,internet_facing,Cisco IOS-like (synthetic),HR,False,confidential,True
+AST-0438,Workstation_0438,Workstation,high,dmz,internal,macOS,Sales,True,restricted,True
+AST-0439,IoTDevice_0439,IoTDevice,medium,server_network,restricted,Sensor gateway (synthetic),Security,False,public,True
+AST-0440,Network_Device_0440,NetworkDevice,high,backup_network,internal,Cisco IOS-like (synthetic),Operations,True,confidential,True
+AST-0441,Server_0441,Server,high,backup_network,restricted,Red Hat Enterprise Linux 9,Sales,True,restricted,True
+AST-0442,Server_0442,Server,low,dmz,internal,Windows Server 2022,HR,False,public,True
+AST-0443,Workstation_0443,Workstation,medium,management,internal,Ubuntu 24.04,Operations,False,restricted,True
+AST-0444,Server_0444,Server,low,server_network,internal,Red Hat Enterprise Linux 9,IT,False,internal,True
+AST-0445,WebApplication_0445,WebApplication,low,database_network,restricted,Apache/Java (synthetic),Sales,False,restricted,True
+AST-0446,Database_0446,Database,medium,cloud,internal,MySQL 8,IT,False,restricted,True
+AST-0447,WebApplication_0447,WebApplication,low,dmz,internal,Nginx/Python (synthetic),HR,False,public,True
+AST-0448,Workstation_0448,Workstation,low,dmz,internal,macOS,Sales,False,public,True
+AST-0449,Network_Device_0449,NetworkDevice,low,server_network,internal,Cisco IOS-like (synthetic),Operations,False,restricted,True
+AST-0450,WebApplication_0450,WebApplication,low,management,internal,IIS/.NET (synthetic),IT,False,internal,True
+AST-0451,SecurityAppliance_0451,SecurityAppliance,medium,backup_network,internal,SIEM collector (synthetic),Security,False,internal,True
+AST-0452,Server_0452,Server,medium,database_network,internal,Debian 12,HR,False,public,True
+AST-0453,Network_Device_0453,NetworkDevice,high,dmz,internal,Juniper-like (synthetic),Security,True,restricted,True
+AST-0454,Workstation_0454,Workstation,low,backup_network,internal,Windows 10,Research,False,internal,True
+AST-0455,CloudResource_0455,CloudResource,critical,user_network,internet_facing,Object Storage (synthetic),Customer Support,True,restricted,True
+AST-0456,Server_0456,Server,medium,management,internet_facing,Ubuntu Server 22.04,IT,False,confidential,True
+AST-0457,Network_Device_0457,NetworkDevice,low,cloud,internal,Juniper-like (synthetic),Research,False,confidential,True
+AST-0458,IdentityService_0458,IdentityService,critical,dmz,internal,Active Directory (synthetic),Operations,True,internal,True
+AST-0459,Server_0459,Server,high,user_network,internal,Ubuntu Server 22.04,Security,True,confidential,True
+AST-0460,SecurityAppliance_0460,SecurityAppliance,low,database_network,restricted,VPN gateway (synthetic),Sales,False,public,True
+AST-0461,CloudResource_0461,CloudResource,medium,database_network,restricted,Windows cloud VM,Customer Support,False,confidential,True
+AST-0462,Workstation_0462,Workstation,low,server_network,internal,Windows 10,IT,False,restricted,True
+AST-0463,Workstation_0463,Workstation,high,dmz,internal,Ubuntu 24.04,HR,True,confidential,True
+AST-0464,Workstation_0464,Workstation,high,database_network,internal,Ubuntu 24.04,Finance,True,confidential,True
+AST-0465,CloudResource_0465,CloudResource,medium,backup_network,internet_facing,Object Storage (synthetic),Engineering,False,confidential,True
+AST-0466,Workstation_0466,Workstation,high,backup_network,internet_facing,macOS,Sales,True,internal,True
+AST-0467,CloudResource_0467,CloudResource,medium,management,internet_facing,Windows cloud VM,Security,False,confidential,True
+AST-0468,CloudResource_0468,CloudResource,low,database_network,restricted,Linux cloud VM,Security,False,public,True
+AST-0469,Workstation_0469,Workstation,high,dmz,internal,Windows 11,Customer Support,True,internal,True
+AST-0470,Server_0470,Server,medium,dmz,restricted,Red Hat Enterprise Linux 9,HR,False,public,True
+AST-0471,WebApplication_0471,WebApplication,medium,management,restricted,Node.js (synthetic),Operations,False,internal,True
+AST-0472,CloudResource_0472,CloudResource,high,cloud,internal,Linux cloud VM,IT,True,restricted,True
+AST-0473,Server_0473,Server,high,database_network,restricted,Debian 12,Security,True,confidential,True
+AST-0474,Network_Device_0474,NetworkDevice,high,security_network,internal,Linux-based router (synthetic),Operations,True,internal,True
+AST-0475,Database_0475,Database,medium,user_network,internal,Microsoft SQL Server 2022,Engineering,False,public,True
+AST-0476,Workstation_0476,Workstation,low,backup_network,internal,Windows 11,Research,False,public,True
+AST-0477,Server_0477,Server,high,security_network,internal,Debian 12,HR,True,restricted,True
+AST-0478,Workstation_0478,Workstation,low,management,internal,Windows 10,Security,False,confidential,True
+AST-0479,CloudResource_0479,CloudResource,low,dmz,internal,Managed Container (synthetic),Research,False,restricted,True
+AST-0480,Workstation_0480,Workstation,medium,user_network,internal,Ubuntu 24.04,Customer Support,False,internal,True
+AST-0481,Workstation_0481,Workstation,high,database_network,internal,Windows 11,Customer Support,True,public,True
+AST-0482,Server_0482,Server,medium,security_network,restricted,Red Hat Enterprise Linux 9,Finance,False,restricted,True
+AST-0483,Workstation_0483,Workstation,medium,backup_network,internal,macOS,IT,False,confidential,True
+AST-0484,Database_0484,Database,high,dmz,internal,PostgreSQL 16,HR,True,public,True
+AST-0485,Workstation_0485,Workstation,critical,backup_network,restricted,Windows 10,Research,True,public,True
+AST-0486,WebApplication_0486,WebApplication,critical,backup_network,internal,IIS/.NET (synthetic),Operations,True,restricted,True
+AST-0487,Server_0487,Server,medium,user_network,internal,Ubuntu Server 22.04,Finance,False,restricted,True
+AST-0488,Workstation_0488,Workstation,critical,database_network,internet_facing,Windows 10,HR,True,public,True
+AST-0489,Server_0489,Server,low,backup_network,internal,Ubuntu Server 22.04,Engineering,False,confidential,True
+AST-0490,SecurityAppliance_0490,SecurityAppliance,low,server_network,restricted,SIEM collector (synthetic),Research,False,confidential,True
+AST-0491,WebApplication_0491,WebApplication,critical,security_network,internal,Nginx/Python (synthetic),Research,True,restricted,True
+AST-0492,Workstation_0492,Workstation,medium,database_network,internal,Windows 11,Finance,False,public,True
+AST-0493,IdentityService_0493,IdentityService,high,management,internal,LDAP (synthetic),Security,True,restricted,True
+AST-0494,Network_Device_0494,NetworkDevice,low,user_network,internal,Juniper-like (synthetic),HR,False,restricted,True
+AST-0495,Workstation_0495,Workstation,high,management,internal,Windows 11,Customer Support,True,confidential,True
+AST-0496,SecurityAppliance_0496,SecurityAppliance,high,management,internal,VPN gateway (synthetic),Engineering,True,confidential,True
+AST-0497,WebApplication_0497,WebApplication,critical,server_network,internal,Apache/Java (synthetic),HR,True,confidential,True
+AST-0498,IoTDevice_0498,IoTDevice,medium,management,restricted,Badge reader (synthetic),Finance,False,internal,True
+AST-0499,Database_0499,Database,high,backup_network,internal,Microsoft SQL Server 2022,IT,True,internal,True
+AST-0500,Workstation_0500,Workstation,low,backup_network,internal,Windows 11,HR,False,internal,True
+AST-0501,BackupSystem_0501,BackupSystem,medium,user_network,restricted,Linux backup server,IT,False,confidential,True
+AST-0502,CloudResource_0502,CloudResource,high,management,internal,Managed Container (synthetic),Finance,True,public,True
+AST-0503,Workstation_0503,Workstation,low,security_network,internal,macOS,Research,False,confidential,True
+AST-0504,Server_0504,Server,high,cloud,internal,Windows Server 2022,Engineering,True,public,True
+AST-0505,Server_0505,Server,high,dmz,internal,Ubuntu Server 22.04,Operations,True,confidential,True
+AST-0506,CloudResource_0506,CloudResource,high,user_network,internal,Linux cloud VM,Customer Support,True,internal,True
+AST-0507,CloudResource_0507,CloudResource,medium,user_network,internal,Object Storage (synthetic),Engineering,False,restricted,True
+AST-0508,SecurityAppliance_0508,SecurityAppliance,medium,management,internal,IDS/IPS (synthetic),Customer Support,False,confidential,True
+AST-0509,CloudResource_0509,CloudResource,medium,backup_network,internal,Linux cloud VM,Research,False,confidential,True
+AST-0510,Network_Device_0510,NetworkDevice,medium,cloud,restricted,Cisco IOS-like (synthetic),Customer Support,False,public,True
+AST-0511,Server_0511,Server,high,management,internet_facing,Red Hat Enterprise Linux 9,Engineering,True,internal,True
+AST-0512,Workstation_0512,Workstation,high,dmz,internal,macOS,Sales,True,internal,True
+AST-0513,CloudResource_0513,CloudResource,critical,security_network,internal,Object Storage (synthetic),Security,True,restricted,True
+AST-0514,Server_0514,Server,medium,dmz,restricted,Ubuntu Server 22.04,Research,False,restricted,True
+AST-0515,SecurityAppliance_0515,SecurityAppliance,medium,management,internet_facing,IDS/IPS (synthetic),Research,False,internal,True
+AST-0516,Server_0516,Server,high,database_network,internal,Ubuntu Server 22.04,Sales,True,public,True
+AST-0517,Workstation_0517,Workstation,medium,cloud,internal,Ubuntu 24.04,Sales,False,confidential,True
+AST-0518,Network_Device_0518,NetworkDevice,medium,server_network,internal,Linux-based router (synthetic),Finance,False,restricted,True
+AST-0519,BackupSystem_0519,BackupSystem,high,server_network,internal,Linux backup server,Research,True,confidential,True
+AST-0520,Server_0520,Server,low,database_network,internal,Ubuntu Server 22.04,Sales,False,restricted,True
+AST-0521,Network_Device_0521,NetworkDevice,low,security_network,internet_facing,Linux-based router (synthetic),HR,False,public,True
+AST-0522,Database_0522,Database,medium,database_network,internal,PostgreSQL 16,IT,False,restricted,True
+AST-0523,Server_0523,Server,medium,database_network,internal,Ubuntu Server 22.04,Customer Support,False,public,True
+AST-0524,Workstation_0524,Workstation,medium,backup_network,internal,macOS,Security,False,public,True
+AST-0525,Workstation_0525,Workstation,critical,management,internal,Ubuntu 24.04,Research,True,internal,True
+AST-0526,Workstation_0526,Workstation,medium,dmz,restricted,Ubuntu 24.04,Engineering,False,internal,True
+AST-0527,Workstation_0527,Workstation,low,cloud,internal,Windows 11,Engineering,False,confidential,True
+AST-0528,Database_0528,Database,medium,management,restricted,MySQL 8,Sales,False,restricted,True
+AST-0529,Server_0529,Server,critical,database_network,restricted,Debian 12,IT,True,internal,True
+AST-0530,Workstation_0530,Workstation,low,database_network,restricted,Windows 11,Research,False,internal,True
+AST-0531,Workstation_0531,Workstation,medium,user_network,internal,Ubuntu 24.04,Research,False,public,True
+AST-0532,Network_Device_0532,NetworkDevice,high,server_network,internet_facing,Cisco IOS-like (synthetic),IT,True,public,True
+AST-0533,Server_0533,Server,medium,server_network,internal,Debian 12,HR,False,internal,True
+AST-0534,CloudResource_0534,CloudResource,medium,user_network,restricted,Linux cloud VM,Research,False,confidential,True
+AST-0535,Network_Device_0535,NetworkDevice,medium,database_network,internal,Cisco IOS-like (synthetic),Research,False,public,True
+AST-0536,Server_0536,Server,medium,server_network,internal,Ubuntu Server 22.04,Engineering,False,internal,True
+AST-0537,Server_0537,Server,low,cloud,restricted,Debian 12,Operations,False,restricted,True
+AST-0538,Server_0538,Server,high,user_network,internal,Windows Server 2022,Customer Support,True,internal,True
+AST-0539,IoTDevice_0539,IoTDevice,high,server_network,internal,Camera (synthetic),Engineering,True,internal,True
+AST-0540,Database_0540,Database,medium,cloud,internet_facing,PostgreSQL 16,Finance,False,internal,True
+AST-0541,BackupSystem_0541,BackupSystem,medium,cloud,internal,Cloud backup vault (synthetic),Sales,False,restricted,True
+AST-0542,CloudResource_0542,CloudResource,low,user_network,internal,Windows cloud VM,HR,False,confidential,True
+AST-0543,Server_0543,Server,high,cloud,internet_facing,Windows Server 2022,Sales,True,confidential,True
+AST-0544,Workstation_0544,Workstation,critical,backup_network,internal,Ubuntu 24.04,Security,True,restricted,True
+AST-0545,WebApplication_0545,WebApplication,low,database_network,internal,Nginx/Python (synthetic),HR,False,public,True
+AST-0546,Server_0546,Server,high,security_network,internet_facing,Debian 12,HR,True,restricted,True
+AST-0547,IdentityService_0547,IdentityService,high,user_network,internal,SSO Provider (synthetic),HR,True,restricted,True
+AST-0548,SecurityAppliance_0548,SecurityAppliance,medium,backup_network,internal,Firewall (synthetic),Engineering,False,confidential,True
+AST-0549,Workstation_0549,Workstation,critical,dmz,restricted,Ubuntu 24.04,Research,True,public,True
+AST-0550,Server_0550,Server,medium,dmz,restricted,Debian 12,HR,False,public,True
+AST-0551,Workstation_0551,Workstation,medium,database_network,restricted,macOS,Customer Support,False,internal,True
+AST-0552,Workstation_0552,Workstation,medium,management,restricted,Ubuntu 24.04,IT,False,internal,True
+AST-0553,Network_Device_0553,NetworkDevice,high,backup_network,restricted,Cisco IOS-like (synthetic),Customer Support,True,restricted,True
+AST-0554,WebApplication_0554,WebApplication,high,server_network,internal,IIS/.NET (synthetic),Sales,True,public,True
+AST-0555,Database_0555,Database,low,user_network,restricted,MongoDB 7,IT,False,public,True
+AST-0556,WebApplication_0556,WebApplication,high,cloud,internal,Apache/Java (synthetic),Customer Support,True,confidential,True
+AST-0557,Server_0557,Server,high,dmz,restricted,Red Hat Enterprise Linux 9,Research,True,restricted,True
+AST-0558,CloudResource_0558,CloudResource,low,security_network,restricted,Windows cloud VM,IT,False,confidential,True
+AST-0559,Server_0559,Server,medium,cloud,restricted,Red Hat Enterprise Linux 9,Finance,False,public,True
+AST-0560,SecurityAppliance_0560,SecurityAppliance,high,database_network,internal,SIEM collector (synthetic),Finance,True,confidential,True
+AST-0561,Network_Device_0561,NetworkDevice,critical,server_network,internal,Juniper-like (synthetic),Operations,True,restricted,True
+AST-0562,WebApplication_0562,WebApplication,low,management,restricted,IIS/.NET (synthetic),IT,False,public,True
+AST-0563,IdentityService_0563,IdentityService,high,security_network,internet_facing,SSO Provider (synthetic),HR,True,restricted,True
+AST-0564,Workstation_0564,Workstation,medium,user_network,internal,macOS,Customer Support,False,internal,True
+AST-0565,CloudResource_0565,CloudResource,low,database_network,internal,Object Storage (synthetic),Research,False,restricted,True
+AST-0566,Server_0566,Server,medium,dmz,internet_facing,Red Hat Enterprise Linux 9,Engineering,False,restricted,True
+AST-0567,WebApplication_0567,WebApplication,medium,backup_network,internal,Node.js (synthetic),Research,False,confidential,True
+AST-0568,CloudResource_0568,CloudResource,low,dmz,restricted,Object Storage (synthetic),Sales,False,internal,True
+AST-0569,CloudResource_0569,CloudResource,medium,database_network,restricted,Object Storage (synthetic),Finance,False,confidential,True
+AST-0570,Network_Device_0570,NetworkDevice,high,backup_network,internal,Linux-based router (synthetic),Engineering,True,restricted,True
+AST-0571,WebApplication_0571,WebApplication,low,server_network,internal,Apache/Java (synthetic),IT,False,public,True
+AST-0572,Workstation_0572,Workstation,critical,database_network,internal,Ubuntu 24.04,HR,True,public,True
+AST-0573,CloudResource_0573,CloudResource,high,dmz,restricted,Linux cloud VM,Sales,True,restricted,True
+AST-0574,Workstation_0574,Workstation,high,dmz,internal,macOS,Operations,True,confidential,True
+AST-0575,CloudResource_0575,CloudResource,medium,backup_network,restricted,Object Storage (synthetic),Research,False,public,True
+AST-0576,Workstation_0576,Workstation,high,dmz,restricted,macOS,Operations,True,confidential,True
+AST-0577,IdentityService_0577,IdentityService,high,dmz,internal,Active Directory (synthetic),Engineering,True,restricted,True
+AST-0578,Workstation_0578,Workstation,low,server_network,internet_facing,Windows 10,Research,False,public,True
+AST-0579,Server_0579,Server,medium,cloud,internal,Ubuntu Server 22.04,HR,False,confidential,True
+AST-0580,Workstation_0580,Workstation,low,database_network,internal,Ubuntu 24.04,IT,False,confidential,True
+AST-0581,Database_0581,Database,low,management,restricted,Microsoft SQL Server 2022,Research,False,internal,True
+AST-0582,IoTDevice_0582,IoTDevice,high,server_network,internal,Camera (synthetic),Security,True,restricted,True
+AST-0583,Workstation_0583,Workstation,high,dmz,internal,Ubuntu 24.04,Sales,True,confidential,True
+AST-0584,Workstation_0584,Workstation,critical,security_network,internet_facing,Windows 11,Finance,True,confidential,True
+AST-0585,Database_0585,Database,critical,dmz,internal,Microsoft SQL Server 2022,Security,True,public,True
+AST-0586,Server_0586,Server,low,cloud,internal,Red Hat Enterprise Linux 9,Research,False,restricted,True
+AST-0587,Database_0587,Database,medium,dmz,internal,PostgreSQL 16,Finance,False,internal,True
+AST-0588,IoTDevice_0588,IoTDevice,high,user_network,internet_facing,Camera (synthetic),Operations,True,restricted,True
+AST-0589,WebApplication_0589,WebApplication,high,backup_network,internal,Nginx/Python (synthetic),HR,True,public,True
+AST-0590,Database_0590,Database,low,user_network,restricted,PostgreSQL 16,HR,False,confidential,True
+AST-0591,Network_Device_0591,NetworkDevice,critical,dmz,internal,Juniper-like (synthetic),Security,True,restricted,True
+AST-0592,CloudResource_0592,CloudResource,low,management,internal,Linux cloud VM,Research,False,public,True
+AST-0593,CloudResource_0593,CloudResource,high,server_network,restricted,Linux cloud VM,Finance,True,confidential,True
+AST-0594,SecurityAppliance_0594,SecurityAppliance,high,cloud,internal,VPN gateway (synthetic),Finance,True,confidential,True
+AST-0595,IdentityService_0595,IdentityService,medium,backup_network,internet_facing,SSO Provider (synthetic),IT,False,restricted,True
+AST-0596,Workstation_0596,Workstation,high,database_network,internal,Ubuntu 24.04,HR,True,confidential,True
+AST-0597,CloudResource_0597,CloudResource,critical,management,internet_facing,Linux cloud VM,Research,True,internal,True
+AST-0598,Workstation_0598,Workstation,medium,backup_network,internal,Windows 11,Engineering,False,internal,True
+AST-0599,IdentityService_0599,IdentityService,low,management,restricted,SSO Provider (synthetic),Research,False,internal,True
+AST-0600,Workstation_0600,Workstation,low,cloud,internal,Windows 10,IT,False,restricted,True
+AST-0601,CloudResource_0601,CloudResource,high,cloud,internal,Object Storage (synthetic),Finance,True,internal,True
+AST-0602,CloudResource_0602,CloudResource,medium,management,internal,Windows cloud VM,Finance,False,confidential,True
+AST-0603,Network_Device_0603,NetworkDevice,medium,dmz,internal,Juniper-like (synthetic),Sales,False,confidential,True
+AST-0604,CloudResource_0604,CloudResource,high,management,internal,Managed Container (synthetic),HR,True,public,True
+AST-0605,Server_0605,Server,high,dmz,internal,Debian 12,Engineering,True,confidential,True
+AST-0606,Workstation_0606,Workstation,high,management,restricted,macOS,Customer Support,True,confidential,True
+AST-0607,IdentityService_0607,IdentityService,low,server_network,internal,SSO Provider (synthetic),Finance,False,confidential,True
+AST-0608,WebApplication_0608,WebApplication,medium,dmz,restricted,Nginx/Python (synthetic),Finance,False,public,True
+AST-0609,WebApplication_0609,WebApplication,high,user_network,internal,IIS/.NET (synthetic),Operations,True,public,True
+AST-0610,Network_Device_0610,NetworkDevice,high,security_network,internal,Cisco IOS-like (synthetic),Sales,True,restricted,True
+AST-0611,Workstation_0611,Workstation,low,cloud,internet_facing,Windows 11,Security,False,confidential,True
+AST-0612,Database_0612,Database,high,dmz,internal,MySQL 8,Research,True,internal,True
+AST-0613,Database_0613,Database,high,database_network,internal,MongoDB 7,Sales,True,public,True
+AST-0614,Workstation_0614,Workstation,low,dmz,restricted,Ubuntu 24.04,Operations,False,public,True
+AST-0615,CloudResource_0615,CloudResource,medium,management,internal,Managed Container (synthetic),IT,False,public,True
+AST-0616,CloudResource_0616,CloudResource,high,cloud,internal,Object Storage (synthetic),Research,True,internal,True
+AST-0617,Server_0617,Server,medium,management,restricted,Windows Server 2022,Research,False,confidential,True
+AST-0618,Server_0618,Server,medium,dmz,internet_facing,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0619,WebApplication_0619,WebApplication,medium,user_network,internal,Apache/Java (synthetic),Customer Support,False,internal,True
+AST-0620,Workstation_0620,Workstation,low,cloud,internal,Windows 10,HR,False,confidential,True
+AST-0621,Network_Device_0621,NetworkDevice,high,server_network,restricted,Juniper-like (synthetic),Sales,True,public,True
+AST-0622,Database_0622,Database,low,security_network,restricted,MySQL 8,Security,False,public,True
+AST-0623,Workstation_0623,Workstation,low,database_network,internal,Windows 11,HR,False,public,True
+AST-0624,Workstation_0624,Workstation,medium,database_network,internal,macOS,IT,False,confidential,True
+AST-0625,IoTDevice_0625,IoTDevice,medium,security_network,internal,Badge reader (synthetic),Customer Support,False,internal,True
+AST-0626,Workstation_0626,Workstation,high,database_network,restricted,Windows 10,Research,True,confidential,True
+AST-0627,Workstation_0627,Workstation,critical,management,restricted,Windows 11,Operations,True,restricted,True
+AST-0628,Server_0628,Server,low,user_network,internal,Debian 12,HR,False,public,True
+AST-0629,Workstation_0629,Workstation,high,user_network,internal,Windows 11,Finance,True,restricted,True
+AST-0630,CloudResource_0630,CloudResource,high,user_network,internal,Managed Container (synthetic),Research,True,restricted,True
+AST-0631,Server_0631,Server,medium,backup_network,internet_facing,Debian 12,Security,False,confidential,True
+AST-0632,Network_Device_0632,NetworkDevice,medium,server_network,restricted,Juniper-like (synthetic),Customer Support,False,internal,True
+AST-0633,SecurityAppliance_0633,SecurityAppliance,medium,cloud,restricted,SIEM collector (synthetic),Engineering,False,internal,True
+AST-0634,Workstation_0634,Workstation,medium,user_network,restricted,Windows 11,Research,False,public,True
+AST-0635,Server_0635,Server,medium,management,restricted,Windows Server 2022,HR,False,restricted,True
+AST-0636,CloudResource_0636,CloudResource,high,cloud,internal,Managed Container (synthetic),Sales,True,confidential,True
+AST-0637,CloudResource_0637,CloudResource,medium,dmz,internal,Managed Container (synthetic),HR,False,confidential,True
+AST-0638,Network_Device_0638,NetworkDevice,critical,cloud,internal,Linux-based router (synthetic),Sales,True,restricted,True
+AST-0639,CloudResource_0639,CloudResource,high,server_network,internal,Managed Container (synthetic),HR,True,public,True
+AST-0640,Workstation_0640,Workstation,high,management,internal,Windows 11,HR,True,restricted,True
+AST-0641,IoTDevice_0641,IoTDevice,high,server_network,restricted,Badge reader (synthetic),Security,True,public,True
+AST-0642,Workstation_0642,Workstation,low,management,internal,Windows 11,Security,False,restricted,True
+AST-0643,Network_Device_0643,NetworkDevice,high,cloud,restricted,Linux-based router (synthetic),IT,True,internal,True
+AST-0644,CloudResource_0644,CloudResource,low,user_network,internal,Object Storage (synthetic),Operations,False,public,True
+AST-0645,IdentityService_0645,IdentityService,medium,dmz,internal,SSO Provider (synthetic),IT,False,confidential,True
+AST-0646,Workstation_0646,Workstation,low,database_network,restricted,Ubuntu 24.04,Security,False,confidential,True
+AST-0647,CloudResource_0647,CloudResource,medium,dmz,internal,Linux cloud VM,Finance,False,confidential,True
+AST-0648,CloudResource_0648,CloudResource,medium,management,restricted,Object Storage (synthetic),Operations,False,internal,True
+AST-0649,Database_0649,Database,medium,user_network,internet_facing,MongoDB 7,Research,False,public,True
+AST-0650,Network_Device_0650,NetworkDevice,medium,cloud,internal,Cisco IOS-like (synthetic),Research,False,confidential,True
+AST-0651,BackupSystem_0651,BackupSystem,high,cloud,internal,Linux backup server,Customer Support,True,internal,True
+AST-0652,IdentityService_0652,IdentityService,high,security_network,internal,SSO Provider (synthetic),IT,True,restricted,True
+AST-0653,Workstation_0653,Workstation,high,backup_network,internal,Windows 10,Operations,True,confidential,True
+AST-0654,Server_0654,Server,high,user_network,internet_facing,Red Hat Enterprise Linux 9,Operations,True,confidential,True
+AST-0655,Workstation_0655,Workstation,low,management,internal,Windows 10,Customer Support,False,confidential,True
+AST-0656,Server_0656,Server,low,cloud,internal,Ubuntu Server 22.04,Customer Support,False,internal,True
+AST-0657,Workstation_0657,Workstation,low,cloud,restricted,Windows 10,Operations,False,confidential,True
+AST-0658,Workstation_0658,Workstation,critical,server_network,restricted,macOS,IT,True,public,True
+AST-0659,WebApplication_0659,WebApplication,medium,management,internal,Node.js (synthetic),Customer Support,False,internal,True
+AST-0660,IdentityService_0660,IdentityService,medium,cloud,internet_facing,SSO Provider (synthetic),HR,False,public,True
+AST-0661,Database_0661,Database,critical,security_network,restricted,PostgreSQL 16,Research,True,confidential,True
+AST-0662,Server_0662,Server,medium,database_network,restricted,Windows Server 2022,Research,False,restricted,True
+AST-0663,Server_0663,Server,high,user_network,restricted,Debian 12,Finance,True,confidential,True
+AST-0664,Server_0664,Server,low,cloud,internal,Red Hat Enterprise Linux 9,Operations,False,confidential,True
+AST-0665,Database_0665,Database,medium,management,internet_facing,MongoDB 7,Security,False,internal,True
+AST-0666,Server_0666,Server,medium,management,restricted,Debian 12,Engineering,False,restricted,True
+AST-0667,Workstation_0667,Workstation,high,dmz,internal,Ubuntu 24.04,Operations,True,restricted,True
+AST-0668,WebApplication_0668,WebApplication,high,database_network,internal,Apache/Java (synthetic),Customer Support,True,public,True
+AST-0669,Workstation_0669,Workstation,critical,database_network,internal,Ubuntu 24.04,Customer Support,True,confidential,True
+AST-0670,Workstation_0670,Workstation,medium,user_network,internal,Windows 10,IT,False,internal,True
+AST-0671,WebApplication_0671,WebApplication,medium,server_network,internal,Node.js (synthetic),Engineering,False,confidential,True
+AST-0672,Server_0672,Server,medium,cloud,internal,Debian 12,Finance,False,confidential,True
+AST-0673,BackupSystem_0673,BackupSystem,medium,dmz,restricted,Cloud backup vault (synthetic),Research,False,internal,True
+AST-0674,IdentityService_0674,IdentityService,high,management,internal,LDAP (synthetic),Customer Support,True,public,True
+AST-0675,Server_0675,Server,high,security_network,internal,Ubuntu Server 22.04,HR,True,confidential,True
+AST-0676,Server_0676,Server,high,backup_network,restricted,Windows Server 2022,Finance,True,internal,True
+AST-0677,Server_0677,Server,high,management,internal,Red Hat Enterprise Linux 9,Security,True,confidential,True
+AST-0678,BackupSystem_0678,BackupSystem,high,management,internal,Cloud backup vault (synthetic),Customer Support,True,restricted,True
+AST-0679,Workstation_0679,Workstation,low,user_network,internal,Windows 10,Engineering,False,public,True
+AST-0680,Workstation_0680,Workstation,low,server_network,internal,macOS,Research,False,public,True
+AST-0681,Workstation_0681,Workstation,low,server_network,restricted,Windows 10,Finance,False,restricted,True
+AST-0682,Server_0682,Server,medium,cloud,internal,Ubuntu Server 22.04,HR,False,internal,True
+AST-0683,Workstation_0683,Workstation,high,management,internal,Ubuntu 24.04,Customer Support,True,restricted,True
+AST-0684,IoTDevice_0684,IoTDevice,medium,cloud,internet_facing,Camera (synthetic),Research,False,internal,True
+AST-0685,Network_Device_0685,NetworkDevice,medium,backup_network,internal,Linux-based router (synthetic),Research,False,confidential,True
+AST-0686,SecurityAppliance_0686,SecurityAppliance,high,dmz,internal,SIEM collector (synthetic),Engineering,True,confidential,True
+AST-0687,Server_0687,Server,low,cloud,internal,Ubuntu Server 22.04,Sales,False,confidential,True
+AST-0688,Database_0688,Database,critical,security_network,internal,MongoDB 7,Engineering,True,public,True
+AST-0689,IdentityService_0689,IdentityService,medium,cloud,internal,Active Directory (synthetic),Research,False,confidential,True
+AST-0690,Workstation_0690,Workstation,medium,backup_network,internal,Windows 10,Security,False,restricted,True
+AST-0691,Workstation_0691,Workstation,high,backup_network,internal,Ubuntu 24.04,Engineering,True,confidential,True
+AST-0692,Server_0692,Server,low,server_network,internal,Red Hat Enterprise Linux 9,Finance,False,restricted,True
+AST-0693,Network_Device_0693,NetworkDevice,low,security_network,internal,Cisco IOS-like (synthetic),HR,False,public,True
+AST-0694,IoTDevice_0694,IoTDevice,critical,database_network,internal,Badge reader (synthetic),Engineering,True,internal,True
+AST-0695,CloudResource_0695,CloudResource,medium,user_network,internal,Windows cloud VM,IT,False,restricted,True
+AST-0696,Workstation_0696,Workstation,high,cloud,internal,macOS,Sales,True,restricted,True
+AST-0697,CloudResource_0697,CloudResource,low,management,restricted,Windows cloud VM,IT,False,confidential,True
+AST-0698,IdentityService_0698,IdentityService,low,security_network,internal,LDAP (synthetic),Security,False,public,True
+AST-0699,Workstation_0699,Workstation,medium,dmz,internet_facing,macOS,Operations,False,public,True
+AST-0700,Workstation_0700,Workstation,medium,server_network,internal,Windows 10,Customer Support,False,restricted,True
+AST-0701,CloudResource_0701,CloudResource,low,management,internet_facing,Linux cloud VM,Research,False,public,True
+AST-0702,Workstation_0702,Workstation,low,cloud,internal,Windows 11,Operations,False,public,True
+AST-0703,Workstation_0703,Workstation,low,management,restricted,Ubuntu 24.04,Finance,False,restricted,True
+AST-0704,WebApplication_0704,WebApplication,medium,user_network,internal,IIS/.NET (synthetic),HR,False,confidential,True
+AST-0705,IdentityService_0705,IdentityService,medium,database_network,internal,SSO Provider (synthetic),Sales,False,public,True
+AST-0706,Workstation_0706,Workstation,high,database_network,internal,Windows 11,HR,True,restricted,True
+AST-0707,Workstation_0707,Workstation,high,management,internal,macOS,Operations,True,public,True
+AST-0708,CloudResource_0708,CloudResource,medium,database_network,internal,Linux cloud VM,Customer Support,False,restricted,True
+AST-0709,Network_Device_0709,NetworkDevice,low,security_network,internal,Cisco IOS-like (synthetic),Research,False,confidential,True
+AST-0710,Server_0710,Server,high,cloud,restricted,Ubuntu Server 22.04,Finance,True,internal,True
+AST-0711,Database_0711,Database,medium,cloud,internal,MongoDB 7,IT,False,restricted,True
+AST-0712,CloudResource_0712,CloudResource,medium,user_network,internal,Object Storage (synthetic),Operations,False,confidential,True
+AST-0713,CloudResource_0713,CloudResource,low,backup_network,internal,Managed Container (synthetic),Research,False,internal,True
+AST-0714,Network_Device_0714,NetworkDevice,high,backup_network,internal,Cisco IOS-like (synthetic),Finance,True,public,True
+AST-0715,Workstation_0715,Workstation,low,database_network,restricted,Windows 11,Operations,False,public,True
+AST-0716,Database_0716,Database,medium,user_network,internal,MongoDB 7,Customer Support,False,confidential,True
+AST-0717,Workstation_0717,Workstation,low,server_network,internal,Windows 10,Customer Support,False,public,True
+AST-0718,Database_0718,Database,medium,user_network,restricted,MongoDB 7,Sales,False,public,True
+AST-0719,WebApplication_0719,WebApplication,high,user_network,internal,Node.js (synthetic),Finance,True,internal,True
+AST-0720,IoTDevice_0720,IoTDevice,high,server_network,internal,Sensor gateway (synthetic),Security,True,internal,True
+AST-0721,Workstation_0721,Workstation,medium,dmz,internal,Windows 10,Research,False,restricted,True
+AST-0722,IdentityService_0722,IdentityService,high,management,internal,SSO Provider (synthetic),Security,True,public,True
+AST-0723,Workstation_0723,Workstation,medium,backup_network,restricted,Windows 10,Research,False,restricted,True
+AST-0724,SecurityAppliance_0724,SecurityAppliance,medium,management,internal,VPN gateway (synthetic),Sales,False,restricted,True
+AST-0725,IdentityService_0725,IdentityService,medium,management,restricted,SSO Provider (synthetic),Research,False,internal,True
+AST-0726,Server_0726,Server,medium,cloud,restricted,Debian 12,Customer Support,False,restricted,True
+AST-0727,Workstation_0727,Workstation,medium,cloud,restricted,Windows 10,Engineering,False,public,True
+AST-0728,Server_0728,Server,high,dmz,internet_facing,Windows Server 2022,Engineering,True,internal,True
+AST-0729,Workstation_0729,Workstation,low,management,internal,Ubuntu 24.04,Sales,False,internal,True
+AST-0730,Workstation_0730,Workstation,low,cloud,internal,macOS,Operations,False,public,True
+AST-0731,CloudResource_0731,CloudResource,low,security_network,internal,Linux cloud VM,Engineering,False,public,True
+AST-0732,CloudResource_0732,CloudResource,low,backup_network,restricted,Linux cloud VM,Sales,False,confidential,True
+AST-0733,BackupSystem_0733,BackupSystem,critical,backup_network,restricted,Backup appliance (synthetic),Operations,True,public,True
+AST-0734,CloudResource_0734,CloudResource,low,backup_network,restricted,Linux cloud VM,Sales,False,internal,True
+AST-0735,Server_0735,Server,low,dmz,internal,Debian 12,Customer Support,False,public,True
+AST-0736,Workstation_0736,Workstation,low,backup_network,internal,Ubuntu 24.04,Finance,False,restricted,True
+AST-0737,Network_Device_0737,NetworkDevice,medium,backup_network,restricted,Juniper-like (synthetic),Research,False,restricted,True
+AST-0738,IdentityService_0738,IdentityService,medium,database_network,restricted,Active Directory (synthetic),Customer Support,False,restricted,True
+AST-0739,CloudResource_0739,CloudResource,medium,dmz,internal,Object Storage (synthetic),Security,False,confidential,True
+AST-0740,CloudResource_0740,CloudResource,low,server_network,internet_facing,Managed Container (synthetic),Security,False,confidential,True
+AST-0741,Server_0741,Server,medium,management,internal,Windows Server 2022,Engineering,False,internal,True
+AST-0742,Server_0742,Server,high,security_network,internal,Debian 12,IT,True,internal,True
+AST-0743,Workstation_0743,Workstation,high,database_network,restricted,Windows 11,Finance,True,public,True
+AST-0744,Workstation_0744,Workstation,high,database_network,internet_facing,Ubuntu 24.04,IT,True,confidential,True
+AST-0745,CloudResource_0745,CloudResource,medium,cloud,restricted,Linux cloud VM,Sales,False,internal,True
+AST-0746,CloudResource_0746,CloudResource,medium,dmz,internal,Object Storage (synthetic),Research,False,restricted,True
+AST-0747,Network_Device_0747,NetworkDevice,high,database_network,restricted,Linux-based router (synthetic),IT,True,restricted,True
+AST-0748,Network_Device_0748,NetworkDevice,medium,user_network,internet_facing,Cisco IOS-like (synthetic),Engineering,False,internal,True
+AST-0749,WebApplication_0749,WebApplication,low,cloud,restricted,Nginx/Python (synthetic),Finance,False,restricted,True
+AST-0750,CloudResource_0750,CloudResource,high,management,internal,Linux cloud VM,Engineering,True,restricted,True
+AST-0751,Workstation_0751,Workstation,critical,server_network,internet_facing,macOS,Research,True,public,True
+AST-0752,Workstation_0752,Workstation,medium,security_network,internal,Windows 11,IT,False,internal,True
+AST-0753,SecurityAppliance_0753,SecurityAppliance,medium,management,internal,IDS/IPS (synthetic),IT,False,confidential,True
+AST-0754,CloudResource_0754,CloudResource,medium,cloud,internal,Object Storage (synthetic),IT,False,confidential,True
+AST-0755,BackupSystem_0755,BackupSystem,critical,user_network,internal,Linux backup server,Operations,True,internal,True
+AST-0756,Server_0756,Server,low,database_network,internet_facing,Debian 12,Research,False,internal,True
+AST-0757,Server_0757,Server,medium,database_network,internal,Red Hat Enterprise Linux 9,Sales,False,restricted,True
+AST-0758,Network_Device_0758,NetworkDevice,medium,database_network,internal,Linux-based router (synthetic),Operations,False,internal,True
+AST-0759,Server_0759,Server,medium,database_network,restricted,Ubuntu Server 22.04,HR,False,confidential,True
+AST-0760,Workstation_0760,Workstation,low,server_network,internal,Windows 10,IT,False,confidential,True
+AST-0761,BackupSystem_0761,BackupSystem,medium,backup_network,internet_facing,Cloud backup vault (synthetic),Engineering,False,internal,True
+AST-0762,IdentityService_0762,IdentityService,low,database_network,internal,SSO Provider (synthetic),Engineering,False,internal,True
+AST-0763,Network_Device_0763,NetworkDevice,medium,user_network,internal,Linux-based router (synthetic),Customer Support,False,internal,True
+AST-0764,Database_0764,Database,high,security_network,restricted,Microsoft SQL Server 2022,HR,True,restricted,True
+AST-0765,Database_0765,Database,low,database_network,internal,PostgreSQL 16,Security,False,public,True
+AST-0766,SecurityAppliance_0766,SecurityAppliance,medium,backup_network,internal,IDS/IPS (synthetic),Operations,False,public,True
+AST-0767,Workstation_0767,Workstation,high,security_network,internet_facing,macOS,Sales,True,restricted,True
+AST-0768,BackupSystem_0768,BackupSystem,high,backup_network,internal,Cloud backup vault (synthetic),Security,True,confidential,True
+AST-0769,Server_0769,Server,medium,user_network,internal,Debian 12,Customer Support,False,public,True
+AST-0770,BackupSystem_0770,BackupSystem,critical,backup_network,internet_facing,Backup appliance (synthetic),Research,True,restricted,True
+AST-0771,Database_0771,Database,low,user_network,restricted,MongoDB 7,Security,False,confidential,True
+AST-0772,IdentityService_0772,IdentityService,low,security_network,restricted,LDAP (synthetic),IT,False,internal,True
+AST-0773,Database_0773,Database,low,security_network,restricted,PostgreSQL 16,HR,False,internal,True
+AST-0774,Server_0774,Server,low,security_network,internal,Debian 12,Operations,False,restricted,True
+AST-0775,Workstation_0775,Workstation,high,database_network,internal,Windows 11,Finance,True,public,True
+AST-0776,CloudResource_0776,CloudResource,low,management,internal,Managed Container (synthetic),Research,False,internal,True
+AST-0777,Server_0777,Server,high,user_network,internal,Red Hat Enterprise Linux 9,HR,True,internal,True
+AST-0778,BackupSystem_0778,BackupSystem,medium,user_network,internal,Linux backup server,Customer Support,False,confidential,True
+AST-0779,CloudResource_0779,CloudResource,critical,database_network,internal,Linux cloud VM,Engineering,True,public,True
+AST-0780,Database_0780,Database,medium,security_network,internal,PostgreSQL 16,Customer Support,False,internal,True
+AST-0781,Workstation_0781,Workstation,medium,security_network,internal,macOS,Finance,False,public,True
+AST-0782,Workstation_0782,Workstation,medium,cloud,internet_facing,Windows 10,IT,False,internal,True
+AST-0783,Workstation_0783,Workstation,low,management,internal,Windows 11,Engineering,False,confidential,True
+AST-0784,SecurityAppliance_0784,SecurityAppliance,medium,server_network,internal,IDS/IPS (synthetic),HR,False,confidential,True
+AST-0785,Network_Device_0785,NetworkDevice,critical,database_network,restricted,Linux-based router (synthetic),Sales,True,public,True
+AST-0786,Workstation_0786,Workstation,medium,management,restricted,macOS,Finance,False,restricted,True
+AST-0787,WebApplication_0787,WebApplication,medium,cloud,internal,Nginx/Python (synthetic),Engineering,False,confidential,True
+AST-0788,Database_0788,Database,high,dmz,internal,PostgreSQL 16,Finance,True,public,True
+AST-0789,Database_0789,Database,medium,cloud,restricted,Microsoft SQL Server 2022,Engineering,False,confidential,True
+AST-0790,SecurityAppliance_0790,SecurityAppliance,medium,security_network,internal,SIEM collector (synthetic),Customer Support,False,internal,True
+AST-0791,BackupSystem_0791,BackupSystem,critical,cloud,internal,Backup appliance (synthetic),Finance,True,public,True
+AST-0792,Database_0792,Database,high,server_network,restricted,MySQL 8,Security,True,restricted,True
+AST-0793,Workstation_0793,Workstation,low,dmz,internal,Windows 10,Engineering,False,confidential,True
+AST-0794,WebApplication_0794,WebApplication,medium,cloud,internal,Node.js (synthetic),IT,False,public,True
+AST-0795,CloudResource_0795,CloudResource,high,backup_network,internal,Linux cloud VM,HR,True,internal,True
+AST-0796,Server_0796,Server,critical,security_network,restricted,Windows Server 2022,HR,True,restricted,True
+AST-0797,Workstation_0797,Workstation,medium,management,restricted,macOS,IT,False,confidential,True
+AST-0798,Network_Device_0798,NetworkDevice,medium,management,restricted,Cisco IOS-like (synthetic),Operations,False,confidential,True
+AST-0799,WebApplication_0799,WebApplication,low,management,internet_facing,Apache/Java (synthetic),Engineering,False,public,True
+AST-0800,Server_0800,Server,medium,database_network,internet_facing,Debian 12,HR,False,public,True
+AST-0801,BackupSystem_0801,BackupSystem,high,cloud,restricted,Linux backup server,IT,True,confidential,True
+AST-0802,Server_0802,Server,medium,dmz,internal,Red Hat Enterprise Linux 9,Operations,False,confidential,True
+AST-0803,Workstation_0803,Workstation,high,user_network,internal,Windows 11,Customer Support,True,public,True
+AST-0804,WebApplication_0804,WebApplication,low,database_network,internal,IIS/.NET (synthetic),Research,False,confidential,True
+AST-0805,IdentityService_0805,IdentityService,high,server_network,internal,SSO Provider (synthetic),HR,True,internal,True
+AST-0806,CloudResource_0806,CloudResource,high,backup_network,internal,Linux cloud VM,IT,True,confidential,True
+AST-0807,SecurityAppliance_0807,SecurityAppliance,medium,server_network,internal,Firewall (synthetic),Finance,False,confidential,True
+AST-0808,Workstation_0808,Workstation,high,cloud,internal,Windows 10,Sales,True,internal,True
+AST-0809,Workstation_0809,Workstation,high,management,internal,Windows 11,Engineering,True,internal,True
+AST-0810,Workstation_0810,Workstation,critical,user_network,internal,Windows 11,Operations,True,confidential,True
+AST-0811,Network_Device_0811,NetworkDevice,critical,database_network,internal,Juniper-like (synthetic),Operations,True,internal,True
+AST-0812,Workstation_0812,Workstation,medium,management,internal,Windows 11,HR,False,public,True
+AST-0813,Database_0813,Database,low,user_network,internet_facing,PostgreSQL 16,Finance,False,restricted,True
+AST-0814,Server_0814,Server,medium,security_network,internal,Red Hat Enterprise Linux 9,Sales,False,internal,True
+AST-0815,CloudResource_0815,CloudResource,critical,server_network,restricted,Managed Container (synthetic),HR,True,public,True
+AST-0816,WebApplication_0816,WebApplication,low,security_network,restricted,Node.js (synthetic),Customer Support,False,restricted,True
+AST-0817,Workstation_0817,Workstation,high,database_network,internet_facing,Ubuntu 24.04,Sales,True,restricted,True
+AST-0818,Workstation_0818,Workstation,high,management,restricted,Ubuntu 24.04,Customer Support,True,restricted,True
+AST-0819,Workstation_0819,Workstation,medium,server_network,internal,macOS,HR,False,confidential,True
+AST-0820,IdentityService_0820,IdentityService,medium,database_network,internal,LDAP (synthetic),Finance,False,confidential,True
+AST-0821,Network_Device_0821,NetworkDevice,medium,cloud,restricted,Juniper-like (synthetic),Security,False,internal,True
+AST-0822,Network_Device_0822,NetworkDevice,critical,database_network,internal,Juniper-like (synthetic),Finance,True,confidential,True
+AST-0823,Workstation_0823,Workstation,high,backup_network,restricted,macOS,Sales,True,internal,True
+AST-0824,Workstation_0824,Workstation,high,server_network,restricted,macOS,Finance,True,restricted,True
+AST-0825,Server_0825,Server,low,security_network,internal,Debian 12,Finance,False,public,True
+AST-0826,CloudResource_0826,CloudResource,medium,backup_network,restricted,Linux cloud VM,Finance,False,internal,True
+AST-0827,WebApplication_0827,WebApplication,high,user_network,internal,Apache/Java (synthetic),Customer Support,True,confidential,True
+AST-0828,Server_0828,Server,low,security_network,internal,Red Hat Enterprise Linux 9,Engineering,False,confidential,True
+AST-0829,SecurityAppliance_0829,SecurityAppliance,high,backup_network,internet_facing,VPN gateway (synthetic),Finance,True,public,True
+AST-0830,Network_Device_0830,NetworkDevice,high,backup_network,internet_facing,Juniper-like (synthetic),IT,True,confidential,True
+AST-0831,SecurityAppliance_0831,SecurityAppliance,low,user_network,internal,VPN gateway (synthetic),Finance,False,confidential,True
+AST-0832,BackupSystem_0832,BackupSystem,high,backup_network,internal,Linux backup server,Sales,True,restricted,True
+AST-0833,Server_0833,Server,high,dmz,internal,Debian 12,HR,True,internal,True
+AST-0834,Network_Device_0834,NetworkDevice,high,management,internal,Cisco IOS-like (synthetic),Engineering,True,internal,True
+AST-0835,Workstation_0835,Workstation,low,user_network,internal,macOS,Security,False,internal,True
+AST-0836,Workstation_0836,Workstation,high,backup_network,internal,macOS,HR,True,restricted,True
+AST-0837,Database_0837,Database,medium,security_network,internal,MySQL 8,HR,False,restricted,True
+AST-0838,Network_Device_0838,NetworkDevice,high,security_network,internal,Cisco IOS-like (synthetic),Research,True,confidential,True
+AST-0839,Server_0839,Server,low,management,internet_facing,Windows Server 2022,Customer Support,False,confidential,True
+AST-0840,Workstation_0840,Workstation,low,server_network,internal,Ubuntu 24.04,Customer Support,False,public,True
+AST-0841,Database_0841,Database,medium,server_network,internet_facing,PostgreSQL 16,Research,False,confidential,True
+AST-0842,Network_Device_0842,NetworkDevice,medium,management,internal,Cisco IOS-like (synthetic),Customer Support,False,restricted,True
+AST-0843,Database_0843,Database,medium,management,internet_facing,Microsoft SQL Server 2022,Engineering,False,internal,True
+AST-0844,Workstation_0844,Workstation,high,cloud,restricted,Ubuntu 24.04,IT,True,restricted,True
+AST-0845,Network_Device_0845,NetworkDevice,high,user_network,internal,Juniper-like (synthetic),IT,True,confidential,True
+AST-0846,Database_0846,Database,high,server_network,internal,Microsoft SQL Server 2022,Engineering,True,internal,True
+AST-0847,Network_Device_0847,NetworkDevice,low,cloud,internal,Cisco IOS-like (synthetic),HR,False,internal,True
+AST-0848,CloudResource_0848,CloudResource,medium,database_network,internal,Windows cloud VM,Customer Support,False,internal,True
+AST-0849,WebApplication_0849,WebApplication,medium,user_network,internal,Nginx/Python (synthetic),HR,False,internal,True
+AST-0850,WebApplication_0850,WebApplication,high,backup_network,internal,Apache/Java (synthetic),Customer Support,True,internal,True
+AST-0851,Workstation_0851,Workstation,low,management,internal,Ubuntu 24.04,Finance,False,public,True
+AST-0852,Workstation_0852,Workstation,medium,security_network,internal,Windows 10,Security,False,restricted,True
+AST-0853,Database_0853,Database,low,backup_network,internal,MongoDB 7,Security,False,confidential,True
+AST-0854,IoTDevice_0854,IoTDevice,low,user_network,internal,Sensor gateway (synthetic),Sales,False,restricted,True
+AST-0855,Network_Device_0855,NetworkDevice,medium,cloud,internet_facing,Juniper-like (synthetic),Finance,False,confidential,True
+AST-0856,CloudResource_0856,CloudResource,high,security_network,internal,Windows cloud VM,Operations,True,confidential,True
+AST-0857,CloudResource_0857,CloudResource,medium,database_network,restricted,Linux cloud VM,IT,False,public,True
+AST-0858,Workstation_0858,Workstation,high,server_network,internal,Ubuntu 24.04,Operations,True,confidential,True
+AST-0859,Workstation_0859,Workstation,medium,user_network,internal,Windows 11,Operations,False,public,True
+AST-0860,CloudResource_0860,CloudResource,high,server_network,internet_facing,Windows cloud VM,Security,True,internal,True
+AST-0861,SecurityAppliance_0861,SecurityAppliance,medium,database_network,internal,SIEM collector (synthetic),Finance,False,restricted,True
+AST-0862,SecurityAppliance_0862,SecurityAppliance,high,backup_network,internet_facing,VPN gateway (synthetic),Engineering,True,internal,True
+AST-0863,IdentityService_0863,IdentityService,medium,user_network,internal,LDAP (synthetic),IT,False,confidential,True
+AST-0864,IoTDevice_0864,IoTDevice,medium,database_network,restricted,Badge reader (synthetic),Operations,False,restricted,True
+AST-0865,Workstation_0865,Workstation,low,server_network,restricted,macOS,Operations,False,public,True
+AST-0866,SecurityAppliance_0866,SecurityAppliance,low,cloud,internal,Firewall (synthetic),Finance,False,confidential,True
+AST-0867,IdentityService_0867,IdentityService,low,security_network,internal,SSO Provider (synthetic),IT,False,public,True
+AST-0868,CloudResource_0868,CloudResource,high,database_network,internal,Managed Container (synthetic),IT,True,restricted,True
+AST-0869,Database_0869,Database,medium,server_network,internal,PostgreSQL 16,Security,False,restricted,True
+AST-0870,Workstation_0870,Workstation,medium,management,internal,Ubuntu 24.04,Security,False,public,True
+AST-0871,CloudResource_0871,CloudResource,medium,server_network,internet_facing,Object Storage (synthetic),Finance,False,restricted,True
+AST-0872,IdentityService_0872,IdentityService,low,dmz,restricted,Active Directory (synthetic),Security,False,internal,True
+AST-0873,Server_0873,Server,high,server_network,restricted,Red Hat Enterprise Linux 9,Customer Support,True,public,True
+AST-0874,BackupSystem_0874,BackupSystem,low,dmz,restricted,Backup appliance (synthetic),IT,False,internal,True
+AST-0875,Database_0875,Database,medium,cloud,internal,MongoDB 7,IT,False,public,True
+AST-0876,Server_0876,Server,medium,user_network,internal,Ubuntu Server 22.04,Research,False,restricted,True
+AST-0877,IoTDevice_0877,IoTDevice,high,database_network,restricted,Camera (synthetic),Finance,True,public,True
+AST-0878,CloudResource_0878,CloudResource,medium,user_network,internal,Linux cloud VM,Operations,False,internal,True
+AST-0879,Workstation_0879,Workstation,critical,user_network,internal,Windows 11,Customer Support,True,internal,True
+AST-0880,WebApplication_0880,WebApplication,low,server_network,internal,Apache/Java (synthetic),Finance,False,internal,True
+AST-0881,Server_0881,Server,medium,backup_network,internal,Ubuntu Server 22.04,Sales,False,internal,True
+AST-0882,IdentityService_0882,IdentityService,medium,database_network,internal,Active Directory (synthetic),Engineering,False,internal,True
+AST-0883,IdentityService_0883,IdentityService,medium,management,internal,LDAP (synthetic),Operations,False,public,True
+AST-0884,Workstation_0884,Workstation,high,backup_network,internal,Windows 11,Customer Support,True,public,True
+AST-0885,Workstation_0885,Workstation,high,server_network,internal,Ubuntu 24.04,Security,True,restricted,True
+AST-0886,CloudResource_0886,CloudResource,high,database_network,internal,Managed Container (synthetic),Security,True,internal,True
+AST-0887,IoTDevice_0887,IoTDevice,medium,user_network,internal,Sensor gateway (synthetic),Customer Support,False,public,True
+AST-0888,CloudResource_0888,CloudResource,medium,cloud,restricted,Linux cloud VM,Research,False,internal,True
+AST-0889,Workstation_0889,Workstation,medium,server_network,internal,Windows 10,Customer Support,False,internal,True
+AST-0890,Server_0890,Server,high,server_network,internal,Debian 12,Customer Support,True,internal,True
+AST-0891,Workstation_0891,Workstation,low,user_network,restricted,Ubuntu 24.04,Engineering,False,internal,True
+AST-0892,Server_0892,Server,low,security_network,internal,Windows Server 2022,Research,False,internal,True
+AST-0893,Workstation_0893,Workstation,medium,security_network,restricted,Windows 11,Operations,False,restricted,True
+AST-0894,Network_Device_0894,NetworkDevice,low,backup_network,internal,Linux-based router (synthetic),Sales,False,internal,True
+AST-0895,IdentityService_0895,IdentityService,low,dmz,internal,SSO Provider (synthetic),Security,False,internal,True
+AST-0896,Server_0896,Server,medium,server_network,internet_facing,Debian 12,IT,False,restricted,True
+AST-0897,Workstation_0897,Workstation,low,security_network,internal,Ubuntu 24.04,HR,False,restricted,True
+AST-0898,CloudResource_0898,CloudResource,critical,management,internal,Windows cloud VM,Sales,True,internal,True
+AST-0899,Workstation_0899,Workstation,medium,user_network,restricted,Windows 11,Customer Support,False,restricted,True
+AST-0900,Server_0900,Server,low,management,internal,Red Hat Enterprise Linux 9,HR,False,internal,True
+AST-0901,Network_Device_0901,NetworkDevice,low,dmz,internet_facing,Linux-based router (synthetic),Customer Support,False,internal,True
+AST-0902,Network_Device_0902,NetworkDevice,medium,security_network,internal,Linux-based router (synthetic),Security,False,internal,True
+AST-0903,Workstation_0903,Workstation,high,dmz,internal,Windows 10,IT,True,restricted,True
+AST-0904,Workstation_0904,Workstation,high,security_network,internal,Windows 11,Security,True,restricted,True
+AST-0905,Database_0905,Database,medium,server_network,restricted,MySQL 8,Finance,False,public,True
+AST-0906,CloudResource_0906,CloudResource,low,dmz,restricted,Object Storage (synthetic),Operations,False,public,True
+AST-0907,Workstation_0907,Workstation,low,cloud,internal,macOS,IT,False,restricted,True
+AST-0908,Database_0908,Database,low,backup_network,restricted,Microsoft SQL Server 2022,Customer Support,False,public,True
+AST-0909,BackupSystem_0909,BackupSystem,high,backup_network,restricted,Linux backup server,Research,True,public,True
+AST-0910,Server_0910,Server,high,cloud,internal,Ubuntu Server 22.04,Finance,True,confidential,True
+AST-0911,CloudResource_0911,CloudResource,high,management,internet_facing,Linux cloud VM,Security,True,confidential,True
+AST-0912,Database_0912,Database,medium,management,internal,PostgreSQL 16,Research,False,internal,True
+AST-0913,Workstation_0913,Workstation,medium,dmz,internet_facing,macOS,Operations,False,internal,True
+AST-0914,Server_0914,Server,medium,cloud,internal,Debian 12,Engineering,False,public,True
+AST-0915,Workstation_0915,Workstation,medium,security_network,internal,Windows 11,Customer Support,False,confidential,True
+AST-0916,Database_0916,Database,low,server_network,restricted,MongoDB 7,Finance,False,public,True
+AST-0917,Server_0917,Server,critical,cloud,internet_facing,Windows Server 2022,Finance,True,internal,True
+AST-0918,Server_0918,Server,medium,database_network,internal,Ubuntu Server 22.04,Research,False,public,True
+AST-0919,Server_0919,Server,medium,database_network,internal,Debian 12,Customer Support,False,public,True
+AST-0920,Server_0920,Server,high,user_network,internal,Ubuntu Server 22.04,Research,True,confidential,True
+AST-0921,Server_0921,Server,medium,management,internal,Debian 12,Customer Support,False,confidential,True
+AST-0922,Network_Device_0922,NetworkDevice,low,cloud,internal,Juniper-like (synthetic),Operations,False,restricted,True
+AST-0923,Server_0923,Server,low,user_network,internet_facing,Red Hat Enterprise Linux 9,Customer Support,False,internal,True
+AST-0924,Network_Device_0924,NetworkDevice,low,cloud,internet_facing,Cisco IOS-like (synthetic),HR,False,internal,True
+AST-0925,Workstation_0925,Workstation,medium,management,internal,macOS,Engineering,False,confidential,True
+AST-0926,Workstation_0926,Workstation,high,user_network,internal,Ubuntu 24.04,HR,True,confidential,True
+AST-0927,Database_0927,Database,medium,database_network,internal,PostgreSQL 16,IT,False,restricted,True
+AST-0928,SecurityAppliance_0928,SecurityAppliance,critical,database_network,internal,VPN gateway (synthetic),HR,True,public,True
+AST-0929,IoTDevice_0929,IoTDevice,high,management,restricted,Badge reader (synthetic),Customer Support,True,confidential,True
+AST-0930,IoTDevice_0930,IoTDevice,high,database_network,internet_facing,Sensor gateway (synthetic),Customer Support,True,confidential,True
+AST-0931,CloudResource_0931,CloudResource,critical,security_network,internal,Windows cloud VM,Research,True,public,True
+AST-0932,Server_0932,Server,medium,dmz,internal,Windows Server 2022,Sales,False,public,True
+AST-0933,Network_Device_0933,NetworkDevice,high,dmz,restricted,Juniper-like (synthetic),Operations,True,public,True
+AST-0934,Workstation_0934,Workstation,high,security_network,internal,Windows 11,Research,True,restricted,True
+AST-0935,Workstation_0935,Workstation,critical,user_network,internal,Ubuntu 24.04,Security,True,internal,True
+AST-0936,CloudResource_0936,CloudResource,medium,management,restricted,Linux cloud VM,Engineering,False,confidential,True
+AST-0937,Server_0937,Server,high,security_network,internal,Windows Server 2022,Operations,True,restricted,True
+AST-0938,CloudResource_0938,CloudResource,medium,security_network,internet_facing,Managed Container (synthetic),Security,False,internal,True
+AST-0939,WebApplication_0939,WebApplication,low,server_network,internal,Node.js (synthetic),Customer Support,False,confidential,True
+AST-0940,Workstation_0940,Workstation,low,backup_network,internet_facing,macOS,Engineering,False,restricted,True
+AST-0941,Workstation_0941,Workstation,low,database_network,internal,macOS,Engineering,False,restricted,True
+AST-0942,Workstation_0942,Workstation,high,cloud,restricted,Ubuntu 24.04,Customer Support,True,restricted,True
+AST-0943,Workstation_0943,Workstation,low,user_network,internal,Ubuntu 24.04,Customer Support,False,public,True
+AST-0944,CloudResource_0944,CloudResource,medium,cloud,restricted,Managed Container (synthetic),Operations,False,public,True
+AST-0945,Workstation_0945,Workstation,critical,security_network,restricted,Windows 11,Sales,True,restricted,True
+AST-0946,Network_Device_0946,NetworkDevice,high,cloud,internal,Juniper-like (synthetic),Finance,True,confidential,True
+AST-0947,Database_0947,Database,high,user_network,restricted,MySQL 8,IT,True,internal,True
+AST-0948,Server_0948,Server,medium,database_network,internal,Windows Server 2022,Engineering,False,confidential,True
+AST-0949,Server_0949,Server,low,management,restricted,Red Hat Enterprise Linux 9,Research,False,public,True
+AST-0950,Database_0950,Database,high,database_network,internal,MySQL 8,Research,True,confidential,True
+AST-0951,BackupSystem_0951,BackupSystem,medium,cloud,internal,Cloud backup vault (synthetic),Sales,False,public,True
+AST-0952,Network_Device_0952,NetworkDevice,low,database_network,internal,Linux-based router (synthetic),Engineering,False,confidential,True
+AST-0953,IdentityService_0953,IdentityService,critical,management,internal,Active Directory (synthetic),Finance,True,internal,True
+AST-0954,Workstation_0954,Workstation,high,dmz,internal,Windows 11,Security,True,restricted,True
+AST-0955,SecurityAppliance_0955,SecurityAppliance,critical,database_network,internal,SIEM collector (synthetic),Sales,True,confidential,True
+AST-0956,CloudResource_0956,CloudResource,high,security_network,internal,Object Storage (synthetic),HR,True,confidential,True
+AST-0957,Workstation_0957,Workstation,medium,server_network,restricted,Windows 10,Operations,False,confidential,True
+AST-0958,Workstation_0958,Workstation,medium,server_network,internal,Windows 11,Finance,False,public,True
+AST-0959,IdentityService_0959,IdentityService,low,backup_network,internal,Active Directory (synthetic),IT,False,public,True
+AST-0960,Database_0960,Database,low,cloud,internal,Microsoft SQL Server 2022,IT,False,public,True
+AST-0961,IdentityService_0961,IdentityService,medium,dmz,internal,Active Directory (synthetic),HR,False,confidential,True
+AST-0962,Workstation_0962,Workstation,critical,cloud,internal,Ubuntu 24.04,Sales,True,internal,True
+AST-0963,WebApplication_0963,WebApplication,medium,dmz,internal,Nginx/Python (synthetic),Finance,False,public,True
+AST-0964,Network_Device_0964,NetworkDevice,critical,dmz,internal,Cisco IOS-like (synthetic),Research,True,public,True
+AST-0965,IoTDevice_0965,IoTDevice,critical,dmz,restricted,Sensor gateway (synthetic),Customer Support,True,confidential,True
+AST-0966,CloudResource_0966,CloudResource,high,security_network,internal,Linux cloud VM,HR,True,confidential,True
+AST-0967,Server_0967,Server,medium,dmz,internal,Red Hat Enterprise Linux 9,Finance,False,restricted,True
+AST-0968,Workstation_0968,Workstation,high,security_network,internal,Ubuntu 24.04,Research,True,public,True
+AST-0969,Workstation_0969,Workstation,medium,server_network,internal,macOS,Engineering,False,restricted,True
+AST-0970,Workstation_0970,Workstation,critical,cloud,internal,macOS,Operations,True,public,True
+AST-0971,SecurityAppliance_0971,SecurityAppliance,critical,security_network,restricted,VPN gateway (synthetic),HR,True,public,True
+AST-0972,CloudResource_0972,CloudResource,medium,server_network,internal,Linux cloud VM,Finance,False,internal,True
+AST-0973,Server_0973,Server,high,server_network,internal,Ubuntu Server 22.04,Finance,True,confidential,True
+AST-0974,IoTDevice_0974,IoTDevice,medium,dmz,internal,Badge reader (synthetic),Finance,False,internal,True
+AST-0975,WebApplication_0975,WebApplication,medium,security_network,internal,Node.js (synthetic),Security,False,confidential,True
+AST-0976,Database_0976,Database,critical,backup_network,restricted,Microsoft SQL Server 2022,HR,True,restricted,True
+AST-0977,Workstation_0977,Workstation,medium,security_network,internal,Windows 10,IT,False,public,True
+AST-0978,CloudResource_0978,CloudResource,medium,server_network,internal,Linux cloud VM,HR,False,restricted,True
+AST-0979,Network_Device_0979,NetworkDevice,medium,database_network,restricted,Linux-based router (synthetic),Finance,False,public,True
+AST-0980,CloudResource_0980,CloudResource,high,security_network,restricted,Windows cloud VM,Engineering,True,restricted,True
+AST-0981,Database_0981,Database,high,management,internal,PostgreSQL 16,IT,True,restricted,True
+AST-0982,BackupSystem_0982,BackupSystem,medium,backup_network,internet_facing,Linux backup server,Customer Support,False,restricted,True
+AST-0983,Workstation_0983,Workstation,high,cloud,internal,Windows 10,Customer Support,True,restricted,True
+AST-0984,Workstation_0984,Workstation,medium,backup_network,internal,Windows 11,Customer Support,False,restricted,True
+AST-0985,Database_0985,Database,medium,database_network,internal,MongoDB 7,Engineering,False,restricted,True
+AST-0986,Network_Device_0986,NetworkDevice,high,management,internet_facing,Juniper-like (synthetic),Sales,True,public,True
+AST-0987,Workstation_0987,Workstation,high,database_network,internal,Ubuntu 24.04,IT,True,confidential,True
+AST-0988,Server_0988,Server,critical,management,internal,Debian 12,Sales,True,public,True
+AST-0989,CloudResource_0989,CloudResource,high,dmz,internal,Linux cloud VM,Finance,True,confidential,True
+AST-0990,Workstation_0990,Workstation,medium,user_network,internal,Windows 11,Customer Support,False,restricted,True
+AST-0991,Network_Device_0991,NetworkDevice,medium,backup_network,internal,Linux-based router (synthetic),Customer Support,False,public,True
+AST-0992,Server_0992,Server,medium,backup_network,internal,Windows Server 2022,Customer Support,False,public,True
+AST-0993,CloudResource_0993,CloudResource,medium,management,restricted,Object Storage (synthetic),HR,False,confidential,True
+AST-0994,Server_0994,Server,medium,dmz,internet_facing,Windows Server 2022,Research,False,internal,True
+AST-0995,Server_0995,Server,critical,cloud,internal,Debian 12,Operations,True,public,True
+AST-0996,CloudResource_0996,CloudResource,medium,server_network,restricted,Object Storage (synthetic),Finance,False,restricted,True
+AST-0997,Server_0997,Server,high,server_network,internal,Red Hat Enterprise Linux 9,Research,True,confidential,True
+AST-0998,Server_0998,Server,low,management,restricted,Debian 12,Engineering,False,restricted,True
+AST-0999,CloudResource_0999,CloudResource,high,database_network,restricted,Windows cloud VM,Customer Support,True,internal,True
+AST-1000,CloudResource_1000,CloudResource,medium,security_network,internet_facing,Managed Container (synthetic),IT,False,internal,True
